@@ -47,7 +47,7 @@
 
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav cl-effect-13">
-						<li class="active"><a href="./#home" class="smoothScroll">Home</a></li>
+						<li><a href="./#home" class="smoothScroll">Home</a></li>
 						<li><a href="./#tournament" class="smoothScroll">Tournament</a></li>
 					</ul>
 
