@@ -53,7 +53,7 @@
 
 					<!-- Sign In / Sign Up -->
 					<ul class="nav navbar-nav navbar-right">
-						<li class="dropdown"><a href="#signin" data-toggle="modal" data-target=".bs-modal-sm"><span class="icon-lock"></span> Sign Up</a></li>
+						<li class="dropdown"><a href="#signin" data-toggle="" data-target=".bs-modal-sm"><span class="icon-lock"></span> Sign Up</a></li>
 						<div class="navbar-form pull-left">
 							<a href="" type="button" class="btn btn-sm btn-theme" data-toggle="" data-target=".bs-modal-sm">Coming Soon!</a>
 						</div>
