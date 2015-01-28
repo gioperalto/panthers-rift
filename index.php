@@ -53,7 +53,7 @@
 
 					<!-- Sign In / Sign Up -->
 					<ul class="nav navbar-nav navbar-right">
-						<li class="dropdown"><a href="#signin" data-toggle="" data-target=".bs-modal-sm"><span class="icon-lock"></span> Sign Up</a></li>
+						<li class="dropdown"><a href="#signin" data-toggle="modal" data-target=".bs-modal-sm"><span class="icon-lock"></span> Sign Up</a></li>
 						<div class="navbar-form pull-left">
 							<a href="" type="button" class="btn btn-sm btn-theme" data-toggle="" data-target=".bs-modal-sm">Coming Soon!</a>
 						</div>
@@ -80,28 +80,25 @@
 									<fieldset>
 										<!-- Text input-->
 										<div class="control-group">
+											<label class="control-label" for="Email">Name:</label>
+											<div class="controls">
+												<input id="Email" name="Email" class="form-control" type="text" placeholder="Your first and last name" class="input-large" required="">
+											</div>
+										</div>
+
+										<!-- Text input-->
+										<div class="control-group">
 											<label class="control-label" for="Email">Email:</label>
 											<div class="controls">
 												<input id="Email" name="Email" class="form-control" type="text" placeholder="Your email address" class="input-large" required="">
 											</div>
 										</div>
 
-										<!-- Password input-->
+										<!-- Text input-->
 										<div class="control-group">
-											<label class="control-label" for="passwordinput">Password:</label>
+											<label class="control-label" for="Email">*Summoner Name:</label>
 											<div class="controls">
-												<input required="" id="passwordinput" name="passwordinput" class="form-control" type="password" placeholder="********" class="input-medium">
-											</div>
-										</div>
-
-										<!-- Multiple Checkboxes (inline) -->
-										<div class="control-group">
-											<label class="control-label" for="rememberme"></label>
-											<div class="controls">
-												<label class="checkbox inline" for="rememberme-0">
-													<input type="checkbox" name="rememberme" id="rememberme-0" value="Remember me">
-													Remember me
-												</label>
+												<input id="Email" name="Email" class="form-control" type="text" placeholder="Your summoner name" class="input-large" required="">
 											</div>
 										</div>
 
@@ -109,9 +106,14 @@
 										<div class="control-group">
 											<label class="control-label" for="signin"></label>
 											<div class="controls">
-												<button id="signin" name="signin" class="btn btn-theme btn-block">Sign In</button>
+												<button id="signin" name="signin" class="btn btn-theme btn-block">Register Me</button>
 											</div>
 										</div>
+
+										<div class="form-padding">
+											<span class="small">* See rules for specific information regarding registration</span>
+										</div>
+
 									</fieldset>
 								</form>
 							</div><!-- /signin -->
@@ -283,13 +285,14 @@
 									<i class="fa fa-warning"></i> Rules
 									</a>
 								</div>
-								<div id="collapseTwo" class="accordion-body collapse">
+								<div id="collapseTwo" class="accordion-body collapse in">
 									<div class="accordion-inner">
 										<ul>
 											<li>You are not in control of the team you are on (we have algorithms for that)</li>
 											<li>All matches will be played in 5v5 format on Summoners Rift</li>
 											<li>Rage quit and you will be ejected from the tournament</li>
 											<li>After you are assigned a team, you have two weeks to prepare as a group</li>
+											<li>Registrant account must be on League NA Server</li>
 										</ul>
 									</div><!-- /accordion-inner -->
 								</div><!-- /collapse -->
@@ -302,7 +305,7 @@
 									<i class="fa fa-trophy"></i> Prizes
 									</a>
 								</div>
-								<div id="collapseThree" class="accordion-body collapse">
+								<div id="collapseThree" class="accordion-body collapse in">
 									<div class="accordion-inner">
 										<ul>
 											<li>Pizza and drinks will be available for all attendees</li>
