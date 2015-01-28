@@ -19,3 +19,11 @@ body {
 	font-size: 20px;
 	color: #06979e;
 }
+
+.form-padding {
+	padding: 6px 12px;
+}
+
+.modal-footer {
+	margin-top: 0px;
+}
