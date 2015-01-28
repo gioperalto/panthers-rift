@@ -1,0 +1,21 @@
+body {
+	background-color: #f8f8f8;
+}
+
+#headerwrap {
+	background: url('../img/background-img.jpg') no-repeat center top;
+	background-size: cover;
+}
+
+.navbar-default {
+	background-color: #f8f8f8;
+}
+
+.grey {
+	color: #bdc3c7;
+}
+
+#featureswrap .col-lg-4 h4, #featureswrap .col-lg-4 licon {
+	font-size: 20px;
+	color: #06979e;
+}
