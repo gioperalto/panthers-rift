@@ -269,6 +269,7 @@
 											<li>Rage quit and you will be ejected from the tournament</li>
 											<li>After you are assigned a team, you have two weeks to prepare as a group</li>
 											<li>Registrant account must be on League NA Server</li>
+											<li>You are not allowed to use scripts</li>
 										</ul>
 									</div><!-- /accordion-inner -->
 								</div><!-- /collapse -->
