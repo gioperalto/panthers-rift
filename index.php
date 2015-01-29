@@ -55,7 +55,7 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li class="dropdown"><a href="#signin" data-toggle="modal" data-target=".bs-modal-sm"><span class="icon-lock"></span> Sign Up</a></li>
 						<div class="navbar-form pull-left">
-							<a href="" type="button" class="btn btn-sm btn-theme" data-toggle="modal" data-target=".bs-modal-sm">
+							<a class="btn btn-sm btn-theme no-btn">
 								<?php 
 									// CONNECT TO DB
 									include 'config/db-con.php';

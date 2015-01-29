@@ -27,3 +27,7 @@ body {
 .modal-footer {
 	margin-top: 0px;
 }
+
+.no-btn {
+	cursor: none;
+}
