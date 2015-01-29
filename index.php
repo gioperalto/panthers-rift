@@ -55,7 +55,18 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li class="dropdown"><a href="#signin" data-toggle="modal" data-target=".bs-modal-sm"><span class="icon-lock"></span> Sign Up</a></li>
 						<div class="navbar-form pull-left">
-							<a href="" type="button" class="btn btn-sm btn-theme" data-toggle="" data-target=".bs-modal-sm">Coming Soon!</a>
+							<a href="" type="button" class="btn btn-sm btn-theme" data-toggle="modal" data-target=".bs-modal-sm">
+								<?php 
+									// CONNECT TO DB
+									include 'config/db-con.php';
+									$selectAll = "SELECT user_summoner_name FROM user;";
+									if($result = mysqli_query($conn,$selectAll)): 
+										echo mysqli_num_rows($result) . ' registrations';
+									endif;
+									// CLOSE CONNECTION
+									mysqli_close($conn);
+								?>
+							</a>
 						</div>
 					</ul>
 				</div><!--/nav-collapse -->
