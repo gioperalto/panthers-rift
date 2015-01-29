@@ -53,7 +53,7 @@
 
 					<!-- Sign In / Sign Up -->
 					<ul class="nav navbar-nav navbar-right">
-						<li class="dropdown"><a href="#signin" data-toggle="" data-target=".bs-modal-sm"><span class="icon-lock"></span> Sign Up</a></li>
+						<li class="dropdown"><a href="#signin" data-toggle="modal" data-target=".bs-modal-sm"><span class="icon-lock"></span> Sign Up</a></li>
 						<div class="navbar-form pull-left">
 							<a href="" type="button" class="btn btn-sm btn-theme" data-toggle="" data-target=".bs-modal-sm">Coming Soon!</a>
 						</div>
@@ -76,37 +76,37 @@
 						<div id="myTabContent" class="tab-content">
 							<!-- Sign In Form -->
 							<div class="tab-pane fade active in" id="signin">
-								<form class="form-horizontal">
+								<!-- <form class="form-horizontal"> -->
 									<fieldset>
 										<!-- Text input-->
 										<div class="control-group">
-											<label class="control-label" for="Email">Name:</label>
+											<label class="control-label" for="name">Name:</label>
 											<div class="controls">
-												<input id="Email" name="Email" class="form-control" type="text" placeholder="Your first and last name" class="input-large" required="">
+												<input id="name" name="name" class="form-control" type="text" placeholder="Your first and last name" class="input-large" required="">
 											</div>
 										</div>
 
 										<!-- Text input-->
 										<div class="control-group">
-											<label class="control-label" for="Email">Email:</label>
+											<label class="control-label" for="email">Email:</label>
 											<div class="controls">
-												<input id="Email" name="Email" class="form-control" type="text" placeholder="Your email address" class="input-large" required="">
+												<input id="email" name="email" class="form-control" type="text" placeholder="Your email address" class="input-large" required="">
 											</div>
 										</div>
 
 										<!-- Text input-->
 										<div class="control-group">
-											<label class="control-label" for="Email">*Summoner Name:</label>
+											<label class="control-label" for="summoner_name">*Summoner Name:</label>
 											<div class="controls">
-												<input id="Email" name="Email" class="form-control" type="text" placeholder="Your summoner name" class="input-large" required="">
+												<input id="summoner_name" name="summoner_name" class="form-control" type="text" placeholder="Your summoner name" class="input-large" required="">
 											</div>
 										</div>
 
 										<!-- Button -->
 										<div class="control-group">
-											<label class="control-label" for="signin"></label>
+											<label class="control-label" for="signup"></label>
 											<div class="controls">
-												<button id="signin" name="signin" class="btn btn-theme btn-block">Register Me</button>
+												<button id="signup" type="button" class="btn btn-theme btn-block">Register Me</button>
 											</div>
 										</div>
 
@@ -115,60 +115,8 @@
 										</div>
 
 									</fieldset>
-								</form>
+								<!-- </form> -->
 							</div><!-- /signin -->
-
-							<!-- Sign Up Form -->
-							<div class="tab-pane fade" id="signup">
-								<form class="form-horizontal">
-									<fieldset>
-										<!-- Text input-->
-										<div class="control-group">
-											<label class="control-label" for="Email">Email:</label>
-											<div class="controls">
-												<input id="Email" name="Email" class="form-control" type="text" placeholder="Your email address" class="input-large" required="">
-											</div>
-										</div>
-
-										<!-- Password input-->
-										<div class="control-group">
-											<label class="control-label" for="password">Password:</label>
-											<div class="controls">
-												<input id="password" name="password" class="form-control" type="password" placeholder="********" class="input-large" required="">
-												<em>1-8 Characters</em>
-											</div>
-										</div>
-
-										<!-- Text input-->
-										<div class="control-group">
-											<label class="control-label" for="reenterpassword">Re-Enter Password:</label>
-											<div class="controls">
-												<input id="reenterpassword" class="form-control" name="reenterpassword" type="password" placeholder="********" class="input-large" required="">
-											</div>
-										</div>
-
-										<!-- Multiple Radios (inline) -->
-										<br>
-										<div class="control-group">
-											<label class="control-label" for="humancheck">Humanity Check:</label>
-											<div class="controls">
-												<label class="radio inline" for="humancheck-0">
-													<input type="radio" name="humancheck" id="humancheck-0" value="robot" checked="checked">I'm a Robot</label>
-												<label class="radio inline" for="humancheck-1">
-													<input type="radio" name="humancheck" id="humancheck-1" value="human">I'm Human</label>
-											</div>
-										</div>
-
-										<!-- Button -->
-										<div class="control-group">
-											<label class="control-label" for="confirmsignup"></label>
-											<div class="controls">
-												<button id="confirmsignup" name="confirmsignup" class="btn btn-theme btn-block">Sign Up</button>
-											</div>
-										</div>
-									</fieldset>
-								</form>
-							</div><!-- /signup -->
 						</div><!-- /tab-content -->
 					</div><!-- /modal-body -->
 
@@ -188,6 +136,23 @@
 			<div class="container">
 				<div class="row text-center">
 					<div class="col-lg-12">
+						<?php if(isset($_GET['success'])){ ?>
+							<div class="alert alert-success alert-dismissible" role="alert">
+							  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							  <strong>Success!</strong> You have registered for the tournament.
+							</div>
+						<?php } else if(isset($_GET['fail'])) { ?>
+							<div class="alert alert-warning alert-dismissible" role="alert">
+							  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							  <strong>Problem!</strong> This user has already entered the tournament.
+							</div>
+						<?php } else if(isset($_GET['invalid'])) { ?>
+							<div class="alert alert-danger alert-dismissible" role="alert">
+							  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							  <strong>Error!</strong> Invalid request to create account.
+							</div>
+						<?php } ?>
+						
 						<h1>Welcome To <b>Panther's Rift</b></h1>
 						<h3>Become a part of the most epic League of Legends Tournament in FIU history.</h3>
 						<br>
@@ -238,7 +203,7 @@
 						<p>We are planning awesome activities to make this event even more fun.</p>
 					</div>
 					<div class="col-lg-3">
-						<licon class="li_like"></licon>
+						<a href="https://www.facebook.com/panthersrift" target="_blank"><licon class="li_like"></licon></a>
 						<h3>Like on Facebook</h3>
 						<p>Join our Facebook page and see all the crazy things leading up to the event.</p>
 					</div>
@@ -370,11 +335,35 @@
 			</div><!-- /container -->
 		</div><!-- /copywrap (copyright) -->
 
-
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="assets/js/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/smoothscroll.js"></script>
+		<script src="user/api.js"></script>
+		<!-- Inline script -->
+		<script type="text/javascript">
+
+			var name, email 	= '';
+			var key 			= <?php include 'config/api-con.php'; echo '"' . $api_key . '"'; ?>;
+			var summoner_name	= '';
+			$("#signup").click(function() {
+				name  			= $("#name").val();
+				email 			= $("#email").val();
+				summoner_name 	= $("#summoner_name").val();
+				summoner_rank 	= getTier(getId(summoner_name,key),key);
+				$.post(
+					"user/create.php", 
+					{
+						name: name,
+						email: email,
+						summoner_name: summoner_name,
+						summoner_rank: summoner_rank
+					}
+				).done(function() {
+					window.location = "./?success";
+				});
+			});
+		</script>
 	</body>
 </html>
