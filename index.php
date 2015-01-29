@@ -357,11 +357,11 @@
 
 			var name, email 	= '';
 			var key 			= <?php include 'config/api-con.php'; echo '"' . $api_key . '"'; ?>;
-			var summoner_name	= '';
+			var summoner_name	= "";
 			$("#signup").click(function() {
 				name  			= $("#name").val();
 				email 			= $("#email").val();
-				summoner_name 	= $("#summoner_name").val();
+				summoner_name 	= $("#summoner_name").val().replace(" ","");
 				summoner_rank 	= getTier(getId(summoner_name,key),key);
 				$.post(
 					"user/create.php", 
