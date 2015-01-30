@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Panther's Rift - The biggest League of Legends tournament of the year for Florida International University Students">
-		<meta name="keywords" content="">
+		<meta name="keywords" content="Panther's Rift, Tournament, League of Legends, Panther, Rift, FIU, Florida International University, STARS, FIU STARS">
 		<meta name="author" content="Gio Peralto-Pritchard">
 		<link rel="shortcut icon" href="assets/img/favicon.ico">
 		<title>Panther's Rift - An FIU Summoners Gathering</title>
@@ -95,7 +95,7 @@
 						<div id="myTabContent" class="tab-content">
 							<!-- Sign In Form -->
 							<div class="tab-pane fade active in" id="signin">
-								<!-- <form class="form-horizontal"> -->
+								<form name="userForm" method="post" action="user/submit.php">
 									<fieldset>
 										<!-- Text input-->
 										<div class="control-group">
@@ -134,7 +134,7 @@
 										</div>
 
 									</fieldset>
-								<!-- </form> -->
+								</form>
 							</div><!-- /signin -->
 						</div><!-- /tab-content -->
 					</div><!-- /modal-body -->
@@ -251,7 +251,7 @@
 						<div class="accordion ac" id="accordion2">
 							<div class="accordion-group active">
 								<div class="accordion-heading">
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="index.html#collapseOne">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="./#collapseOne">
 									The break down
 									</a>
 								</div><!-- /accordion-heading -->
@@ -265,11 +265,29 @@
 
 							<div class="accordion-group">
 								<div class="accordion-heading">
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="index.html#collapseTwo">
-									<i class="fa fa-warning"></i> Rules
-									</a>
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="./#collapseTwo">
+									<i class="fa fa-map-marker"></i> Venue
+									</a> (Click for info)
 								</div>
-								<div id="collapseTwo" class="accordion-body collapse in">
+								<div id="collapseTwo" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<ul>
+											<li>The tournament will be hosted at Florida International University Modesto A. Maidique Campus</li>
+											<li>Exact location and date are TBA (To Be Announced), however we plan to have the all-day event on a Saturday in
+											the first half of March</li>
+										</ul>
+									</div><!-- /accordion-inner -->
+								</div><!-- /collapse -->
+							</div><!-- /accordion-group -->
+							<br>
+
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="./#collapseThree">
+									<i class="fa fa-warning"></i> Rules
+									</a> (Click for info)
+								</div>
+								<div id="collapseThree" class="accordion-body collapse">
 									<div class="accordion-inner">
 										<ul>
 											<li>You are not in control of the team you are on (we have algorithms for that)</li>
@@ -286,11 +304,11 @@
 
 							<div class="accordion-group">
 								<div class="accordion-heading">
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="index.html#collapseThree">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="./#collapseFour">
 									<i class="fa fa-trophy"></i> Prizes
-									</a>
+									</a> (Click for info)
 								</div>
-								<div id="collapseThree" class="accordion-body collapse in">
+								<div id="collapseFour" class="accordion-body collapse">
 									<div class="accordion-inner">
 										<ul>
 											<li>Pizza and drinks will be available for all attendees</li>
@@ -373,29 +391,11 @@
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/smoothscroll.js"></script>
-		<script src="user/api.js"></script>
 		<!-- Inline script -->
 		<script type="text/javascript">
-
-			var name, email 	= '';
-			var key 			= <?php include 'config/api-con.php'; echo '"' . $api_key . '"'; ?>;
-			var summoner_name	= "";
 			$("#signup").click(function() {
-				name  			= $("#name").val();
-				email 			= $("#email").val();
-				summoner_name 	= $("#summoner_name").val().replace(" ","");
-				summoner_rank 	= getTier(getId(summoner_name,key),key);
-				$.post(
-					"user/create.php", 
-					{
-						name: name,
-						email: email,
-						summoner_name: summoner_name,
-						summoner_rank: summoner_rank
-					}
-				).done(function() {
-					window.location = "./?success";
-				});
+				$("#summoner_name").val($("#summoner_name").val().replace(" ",""));
+				document.forms["userForm"].submit();
 			});
 		</script>
 	</body>
