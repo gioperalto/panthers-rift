@@ -7,7 +7,7 @@
 		<meta name="description" content="Panther's Rift - The biggest League of Legends tournament of the year for Florida International University Students">
 		<meta name="keywords" content="">
 		<meta name="author" content="Gio Peralto-Pritchard">
-		<link rel="shortcut icon" href="assets/img/icon.png">
+		<link rel="shortcut icon" href="assets/img/favicon.ico">
 		<link href="https://googledrive.com/host/0Byu5OnURO8f8UGRIVTJzekdsTE0/assets/ico/favicon.png" rel="shortcut icon" >
 		<title>Panther's Rift - An FIU Summoners Gathering</title>
 
