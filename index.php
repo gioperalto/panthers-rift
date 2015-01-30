@@ -7,6 +7,7 @@
 		<meta name="description" content="Panther's Rift - The biggest League of Legends tournament of the year for Florida International University Students">
 		<meta name="keywords" content="">
 		<meta name="author" content="Gio Peralto-Pritchard">
+		<link rel="shortcut icon" href="assets/img/icon.png">
 		<link href="https://googledrive.com/host/0Byu5OnURO8f8UGRIVTJzekdsTE0/assets/ico/favicon.png" rel="shortcut icon" >
 		<title>Panther's Rift - An FIU Summoners Gathering</title>
 
@@ -323,9 +324,22 @@
 						<img class="img-responsive" src="assets/img/teemo-img.png" alt="">
 					</div>
 				</div>
-				<br>
-				<br>
-				<br>
+				<br><br><br>
+				<div class="row">
+					<h2 class="text-center">Solutions</h2>
+					<hr><br><br>
+					<div class="col-lg-6">
+						<img class="img-responsive" src="assets/img/vayne-img.png" alt="">
+					</div>
+					<div class="col-lg-6">
+						<br><br>
+						<h4><i class="li_world"></i> We may not be rocket scientists but...</h4>
+						<p>We've assembled a team of Solutions Engineers to develop an algorithm that effectively balances team distribution.
+							We can't go into many details at the moment, but this algorithm should level the playing field.</p>
+						<br><br>
+					</div>
+				</div>
+				<br><br><br>
 			</div><!-- /container -->
 		</div><!-- /featureswrap -->
 
