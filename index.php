@@ -180,7 +180,6 @@
 					<div class="col-lg-2 hidden-xs hidden-sm hidden-md">
 						<h5>8 teams to rule them all</h5>
 						<p>We plan to have an all day tournament with food, a big venue and all that good stuff.</p>
-						<img src="assets/img/arrow-left.png" alt="">
 					</div>
 					<div class="col-lg-8">
 						<img class="img-responsive" src="assets/img/ali-bg.png" alt="">
@@ -189,7 +188,6 @@
 					</div>
 					<div class="col-lg-2 hidden-xs hidden-sm hidden-md">
 						<br>
-						<img class="pad-top" src="assets/img/arrow-right.png" alt="">
 						<h5>Bring the madness</h5>
 						<p>We'll have pizza, prizes and tons of incentives for you to come to this event.</p>
 					</div>
