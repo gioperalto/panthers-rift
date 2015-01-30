@@ -30,4 +30,6 @@
 
 	// CLOSE CONNECTION
 	mysqli_close($conn);
+	// SUCCESS
+	header("Location: ../?success");
 ?>
