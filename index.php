@@ -215,9 +215,9 @@
 						<p>We will be placing a lot of pizza and food orders for our attendees.</p>
 					</div>
 					<div class="col-lg-3">
-						<licon class="li_fire"></licon>
-						<h3>Bragging Rights</h3>
-						<p>How would it feel to be the best player in a school of 50k people?</p>
+						<licon class="li_banknote"></licon>
+						<h3>Free</h3>
+						<p>Did we forget to mention that this tournament is free participate in?</p>
 					</div>
 					<div class="col-lg-3">
 						<licon class="li_display"></licon>
