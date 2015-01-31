@@ -11,6 +11,12 @@
 		die();
 	}
 
+	if(trim($summoner_rank," ") == "") {
+		// IF AUTHENTICATION FAILED
+		header("Location: ../?nodata");
+		die();
+	}
+
 	// CONNECT TO DB
 	include '../config/db-con.php';
 
