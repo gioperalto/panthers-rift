@@ -369,6 +369,11 @@
 						<p>The reason we ask for your Summoner Name is not only for the tournament. We also get your ranked player
 							information from Riot in order to provide data for the algorithm we're building.</p>
 						<br><br>
+						<h4><i class="fa fa-puzzle-piece"></i> But you already have 8 teams?</h4>
+						<p>We honestly never foresaw the level of growth our site is currently experiencing, but that's not a bad thing.
+							I'm sure we can all agree that League of Legends is a pretty big deal, and we want to show people that. 
+							Anyways, that's why we have a Solutions Engineering Team, right?</p>
+						<br><br>
 					</div>
 				</div>
 				<br><br><br>
