@@ -170,6 +170,11 @@
 							  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 							  <strong>Error!</strong> Invalid request to create account.
 							</div>
+						<?php } else if(isset($_GET['nodata'])) { ?>
+							<div class="alert alert-warning alert-dismissible" role="alert">
+							  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							  <strong>Problem!</strong> Riot has no data on your account.
+							</div>
 						<?php } ?>
 						
 						<h1>Welcome To <b>Panther's Rift</b></h1>
@@ -310,7 +315,7 @@
 									<div class="accordion-inner">
 										<ul>
 											<li>Pizza and drinks will be available for all attendees</li>
-											<li>RP will be given out to the top four quarter-finalist teams</li>
+											<li>RP distribution is still being finalized</li>
 											<li>The winning team gets a trophy and university-wide bragging rights</li>
 											<li>More prizes yet to be announced</li>
 										</ul>
@@ -359,6 +364,10 @@
 						<h4><i class="li_world"></i> We may not be rocket scientists but...</h4>
 						<p>We've assembled a team of Solutions Engineers to develop an algorithm that effectively balances team distribution.
 							We can't go into many details at the moment, but this algorithm should level the playing field.</p>
+						<br><br>
+						<h4><i class="fa fa-question-circle"></i> Did you know?</h4>
+						<p>The reason we ask for your Summoner Name is not only for the tournament. We also get your ranked player
+							information from Riot in order to provide data for the algorithm we're building.</p>
 						<br><br>
 					</div>
 				</div>
