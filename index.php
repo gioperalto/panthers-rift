@@ -217,7 +217,7 @@
 					<div class="col-lg-3">
 						<licon class="li_banknote"></licon>
 						<h3>Free</h3>
-						<p>Did we forget to mention that this tournament is free participate in?</p>
+						<p>Did we forget to mention that this tournament is free to participate in?</p>
 					</div>
 					<div class="col-lg-3">
 						<licon class="li_display"></licon>
