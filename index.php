@@ -57,6 +57,8 @@
 					<ul class="nav navbar-nav cl-effect-13">
 						<li><a href="./#home" class="smoothScroll">Home</a></li>
 						<li><a href="./#tournament" class="smoothScroll">Tournament</a></li>
+						<li><a href="./#teams" class="smoothScroll">Teams</a></li>
+						<li><a href="./#solutions" class="smoothScroll">Solutions</a></li>
 					</ul>
 
 					<!-- Sign In / Sign Up -->
@@ -249,84 +251,92 @@
 					</div>
 
 					<div class="col-lg-6">
+						<h4>The break down</h4>
+						<p>Eight teams will enter the tournament, and one will win. Eight teams will be matched up with one another at random for the first round, which is an elimination round. The four surviving teams of the elimination round will play a best-of-3 match series to advance to the final bracket. Our two finalist teams will compete in a best-of-5 match series to take home the grand prize.</p>
+
+						<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="./#collapseOne">
+								<i class="fa fa-map-marker"></i> Venue
+								</a> (Click for info)
+							</div>
+							<div id="collapseOne" class="accordion-body collapse">
+								<div class="accordion-inner">
+									<ul>
+										<li>The tournament will be hosted at Florida International University Modesto A. Maidique Campus</li>
+										<li>Exact location and date are TBA (To Be Announced), however we plan to have the all-day event on a Saturday in
+										the first half of March</li>
+									</ul>
+								</div><!-- /accordion-inner -->
+							</div><!-- /collapse -->
+						</div><!-- /accordion-group -->
 						<br>
-						<!-- Accordion -->
-						<div class="accordion ac" id="accordion2">
-							<div class="accordion-group active">
-								<div class="accordion-heading">
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="./#collapseOne">
-									The break down
-									</a>
-								</div><!-- /accordion-heading -->
-								<div id="collapseOne" class="accordion-body collapse in">
-									<div class="accordion-inner">
-									<p>Eight teams will enter the tournament, and one will win. Eight teams will be matched up with one another at random for the first round, which is an elimination round. The four surviving teams of the elimination round will play a best-of-3 match series to advance to the final bracket. Our two finalist teams will compete in a best-of-5 match series to take home the grand prize.</p>
-									</div><!-- /accordion-inner -->
-								</div><!-- /collapse -->
-							</div><!-- /accordion-group -->
-							<br>
 
 							<div class="accordion-group">
-								<div class="accordion-heading">
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="./#collapseTwo">
-									<i class="fa fa-map-marker"></i> Venue
-									</a> (Click for info)
-								</div>
-								<div id="collapseTwo" class="accordion-body collapse">
-									<div class="accordion-inner">
-										<ul>
-											<li>The tournament will be hosted at Florida International University Modesto A. Maidique Campus</li>
-											<li>Exact location and date are TBA (To Be Announced), however we plan to have the all-day event on a Saturday in
-											the first half of March</li>
-										</ul>
-									</div><!-- /accordion-inner -->
-								</div><!-- /collapse -->
-							</div><!-- /accordion-group -->
-							<br>
+							<div class="accordion-heading">
+								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="./#collapseTwo">
+								<i class="fa fa-sitemap"></i> Qualifier
+								</a> (Click for info)
+							</div>
+							<div id="collapseTwo" class="accordion-body collapse">
+								<div class="accordion-inner">
+									<ul>
+										<li>To fairly reduce the number of competitors to 40 people (8 teams) we plan to hold a qulifier</li>
+										<li>This will serve as a test run for our algorithm to see how well the teams get distributed</li>										
+									</ul>
+								</div><!-- /accordion-inner -->
+							</div><!-- /collapse -->
+						</div><!-- /accordion-group -->
+						<br>
 
-							<div class="accordion-group">
-								<div class="accordion-heading">
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="./#collapseThree">
-									<i class="fa fa-warning"></i> Rules
-									</a> (Click for info)
-								</div>
-								<div id="collapseThree" class="accordion-body collapse">
-									<div class="accordion-inner">
-										<ul>
-											<li>You are not in control of the team you are on (we have algorithms for that)</li>
-											<li>All matches will be played in 5v5 format on Summoners Rift</li>
-											<li>Rage quit and you will be ejected from the tournament</li>
-											<li>After you are assigned a team, you have two weeks to prepare as a group</li>
-											<li>Registrant account must be on League NA Server</li>
-											<li>You are not allowed to use scripts</li>
-										</ul>
-									</div><!-- /accordion-inner -->
-								</div><!-- /collapse -->
-							</div><!-- /accordion-group -->
-							<br>
+						<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="./#collapseThree">
+								<i class="fa fa-warning"></i> Rules
+								</a> (Click for info)
+							</div>
+							<div id="collapseThree" class="accordion-body collapse">
+								<div class="accordion-inner">
+									<ul>
+										<li>You are not in control of the team you are on (we have algorithms for that)</li>
+										<li>All matches will be played in 5v5 format on Summoners Rift</li>
+										<li>Rage quit and you will be ejected from the tournament</li>
+										<li>After you are assigned a team, you have two weeks to prepare as a group</li>
+										<li>Registrant account must be on League NA Server</li>
+										<li>You are not allowed to use scripts</li>
+									</ul>
+								</div><!-- /accordion-inner -->
+							</div><!-- /collapse -->
+						</div><!-- /accordion-group -->
+						<br>
 
-							<div class="accordion-group">
-								<div class="accordion-heading">
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="./#collapseFour">
-									<i class="fa fa-trophy"></i> Prizes
-									</a> (Click for info)
-								</div>
-								<div id="collapseFour" class="accordion-body collapse">
-									<div class="accordion-inner">
-										<ul>
-											<li>Pizza and drinks will be available for all attendees</li>
-											<li>RP distribution is still being finalized</li>
-											<li>The winning team gets a trophy and university-wide bragging rights</li>
-											<li>More prizes yet to be announced</li>
-										</ul>
-									</div><!-- /accordion-inner -->
-								</div><!-- /collapse -->
-							</div><!-- /accordion-group -->
-							<br>
-						</div><!-- /accordion -->
-					</div>
+						<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion4" href="./#collapseFour">
+								<i class="fa fa-trophy"></i> Prizes
+								</a> (Click for info)
+							</div>
+							<div id="collapseFour" class="accordion-body collapse">
+								<div class="accordion-inner">
+									<ul>
+										<li>Pizza and drinks will be available for all attendees</li>
+										<li>RP distribution is still being finalized</li>
+										<li>The winning team gets a trophy and university-wide bragging rights</li>
+										<li>More prizes yet to be announced</li>
+									</ul>
+								</div><!-- /accordion-inner -->
+							</div><!-- /collapse -->
+						</div><!-- /accordion-group -->
+						<br>
+					</div><!-- /accordion -->
 				</div><!-- /row -->
-				<br><br><br>
+			</div><!-- /container -->
+		</div><!-- /featureswrap -->
+
+		<!-- Features Wrap -->
+		<section id="teams" name="features"></section>
+		<div id="featureswrap">
+			<div class="container">
 				<div class="row">
 					<h2 class="text-center">Teams</h2>
 					<hr><br><br>
@@ -352,7 +362,13 @@
 						<img class="img-responsive" src="assets/img/teemo-img.png" alt="">
 					</div>
 				</div>
-				<br><br><br>
+			</div>
+		</div>
+
+		<!-- Features Wrap -->
+		<section id="solutions" name="features"></section>
+		<div id="featureswrap">
+			<div class="container">
 				<div class="row">
 					<h2 class="text-center">Solutions</h2>
 					<hr><br><br>
@@ -376,9 +392,8 @@
 						<br><br>
 					</div>
 				</div>
-				<br><br><br>
-			</div><!-- /container -->
-		</div><!-- /featureswrap -->
+			</div>
+		</div>
 
 		<!-- Divider 2 Section -->
 		<div id="divider02">
