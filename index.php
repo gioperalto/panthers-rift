@@ -90,13 +90,14 @@
 					<br>
 					<div class="bs-example bs-example-tabs">
 						<ul id="myTab" class="nav nav-tabs nav-justified">
-							<li class=""><a href="index.html#signup" data-toggle="tab">Register</a></li>
+							<li class="active"><a href="index.html#signup" data-toggle="tab">Register</a></li>
+							<li class=""><a href="index.html#signin" data-toggle="tab">Admin?</a></li>
 						</ul>
 					</div>
 					<div class="modal-body">
 						<div id="myTabContent" class="tab-content">
-							<!-- Sign In Form -->
-							<div class="tab-pane fade active in" id="signin">
+							<!-- Sign Up Form -->
+							<div class="tab-pane fade active in" id="signup">
 								<form name="userForm" method="post" action="user/submit.php">
 									<fieldset>
 										<!-- Text input-->
@@ -127,7 +128,7 @@
 										<div class="control-group">
 											<label class="control-label" for="signup"></label>
 											<div class="controls">
-												<button id="signup" type="button" class="btn btn-theme btn-block">Register Me</button>
+												<button id="signupButton" type="button" class="btn btn-theme btn-block">Register Me</button>
 											</div>
 										</div>
 
@@ -135,6 +136,36 @@
 											<span class="small">* See rules for specific information regarding registration</span>
 										</div>
 
+									</fieldset>
+								</form>
+							</div><!-- /signup -->
+							<!-- Sign In Form -->
+							<div class="tab-pane fade in" id="signin">
+								<form class="form-horizontal" method="post" action="admin/login.php">
+									<fieldset>
+										<!-- Text input-->
+										<div class="control-group">
+											<label class="control-label" for="adminEmail">Email:</label>
+											<div class="controls">
+												<input id="adminEmail" name="adminEmail" class="form-control input-large" type="email" placeholder="Your email address" required="">
+											</div>
+										</div>
+
+										<!-- Password input-->
+										<div class="control-group">
+											<label class="control-label" for="adminPassword">Password:</label>
+											<div class="controls">
+												<input id="adminPassword" name="adminPassword" class="form-control input-medium" type="password" placeholder="********" required="">
+											</div>
+										</div>
+
+										<!-- Button -->
+										<div class="control-group">
+											<label class="control-label" for="signin"></label>
+											<div class="controls">
+												<button type="submit" class="btn btn-theme btn-block">Sign In</button>
+											</div>
+										</div>
 									</fieldset>
 								</form>
 							</div><!-- /signin -->
@@ -170,7 +201,7 @@
 						<?php } else if(isset($_GET['invalid'])) { ?>
 							<div class="alert alert-danger alert-dismissible" role="alert">
 							  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							  <strong>Error!</strong> Invalid request to create account.
+							  <strong>Error!</strong> Invalid user data.
 							</div>
 						<?php } else if(isset($_GET['nodata'])) { ?>
 							<div class="alert alert-warning alert-dismissible" role="alert">
@@ -420,7 +451,7 @@
 		<script src="assets/js/smoothscroll.js"></script>
 		<!-- Inline script -->
 		<script type="text/javascript">
-			$("#signup").click(function() {
+			$("#signupButton").click(function() {
 				$("#summoner_name").val($("#summoner_name").val().replace(" ",""));
 				document.forms["userForm"].submit();
 			});
