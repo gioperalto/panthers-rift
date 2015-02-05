@@ -63,18 +63,22 @@
 
 					<!-- Sign In / Sign Up -->
 					<ul class="nav navbar-nav navbar-right">
-						<li class="dropdown"><a href="#signin" data-toggle="modal" data-target=".bs-modal-sm"><span class="icon-lock"></span> Sign Up</a></li>
+						<li class="dropdown">
+							<a href="#signin" data-toggle="modal" data-target=".bs-modal-sm">
+								Sign Up
+							</a>
+						</li>
 						<div class="navbar-form pull-left">
 							<a class="btn btn-sm btn-theme no-btn">
 								<?php 
 									// CONNECT TO DB
 									include 'config/db-con.php';
+									$registrations = 0;
 									$selectAll = "SELECT user_summoner_name FROM user;";
 									if($result = mysqli_query($conn,$selectAll)): 
-										echo mysqli_num_rows($result) . ' registrations';
+										$registrations = mysqli_num_rows($result);
+										echo $registrations . '/100 registered';
 									endif;
-									// CLOSE CONNECTION
-									mysqli_close($conn);
 								?>
 							</a>
 						</div>
@@ -98,6 +102,9 @@
 						<div id="myTabContent" class="tab-content">
 							<!-- Sign Up Form -->
 							<div class="tab-pane fade active in" id="signup">
+								<?php
+									if($registrations < 100):
+								?>
 								<form name="userForm" method="post" action="user/submit.php">
 									<fieldset>
 										<!-- Text input-->
@@ -138,7 +145,18 @@
 
 									</fieldset>
 								</form>
+								<?php
+									else:
+								?>
+									<div class="form-padding">In order to ensure the effectiveness of our balancing algorithm we have
+									closed registrations at 100 sign ups.</div>
+									<div class="form-padding">We apologize if you planned to register at this point, but the venue will
+									still be open to spectators if you want to come.</div>
+								<?php
+									endif;
+								?>
 							</div><!-- /signup -->
+							
 							<!-- Sign In Form -->
 							<div class="tab-pane fade in" id="signin">
 								<form class="form-horizontal" method="post" action="admin/login.php">
@@ -283,7 +301,10 @@
 
 					<div class="col-lg-6">
 						<h4>The break down</h4>
-						<p>Eight teams will enter the tournament, and one will win. Eight teams will be matched up with one another at random for the first round, which is an elimination round. The four surviving teams of the elimination round will play a best-of-3 match series to advance to the final bracket. Our two finalist teams will compete in a best-of-5 match series to take home the grand prize.</p>
+						<p>Sixteen teams enter the qualifier, eight teams will enter the official tournament and one team wins. Eight teams
+						 will be matched in a best of one match for the first round, which is also an elimination round. The four surviving teams
+						  of the elimination round will play a best-of-3 match series to advance to the final bracket. Our two finalist teams
+						   will compete in a best-of-5 match series to take home the grand prize.</p>
 
 						<div class="accordion-group">
 							<div class="accordion-heading">
@@ -295,8 +316,8 @@
 								<div class="accordion-inner">
 									<ul>
 										<li>The tournament will be hosted at Florida International University Modesto A. Maidique Campus</li>
-										<li>Exact location and date are TBA (To Be Announced), however we plan to have the all-day event on a Saturday in
-										the first half of March</li>
+										<li>Exact location and date are TBA (To Be Announced), however we are requesting an auditorium that
+											can hopefully accomodate at least 125 people</li>
 									</ul>
 								</div><!-- /accordion-inner -->
 							</div><!-- /collapse -->
@@ -312,8 +333,8 @@
 							<div id="collapseTwo" class="accordion-body collapse">
 								<div class="accordion-inner">
 									<ul>
-										<li>To fairly reduce the number of competitors to 40 people (8 teams) we plan to hold a qulifier</li>
-										<li>This will serve as a test run for our algorithm to see how well the teams get distributed</li>										
+										<li>16 teams will be reduced to 8 in a best of one elimination round</li>
+										<li>Teams that advance become one of our 8 teams for the main tournament</li>										
 									</ul>
 								</div><!-- /accordion-inner -->
 							</div><!-- /collapse -->
@@ -330,11 +351,11 @@
 								<div class="accordion-inner">
 									<ul>
 										<li>You are not in control of the team you are on (we have algorithms for that)</li>
-										<li>All matches will be played in 5v5 format on Summoners Rift</li>
+										<li>All matches will be played in 5v5 Draft format on Summoners Rift</li>
 										<li>Rage quit and you will be ejected from the tournament</li>
-										<li>After you are assigned a team, you have two weeks to prepare as a group</li>
-										<li>Registrant account must be on League NA Server</li>
-										<li>You are not allowed to use scripts</li>
+										<li>If your team advances to main tournament, you have two weeks to prepare</li>
+										<li>Registrant accounts must be on League NA Server</li>
+										<li>You are not allowed to use scripts (examples: autocasting, hacks)</li>
 									</ul>
 								</div><!-- /accordion-inner -->
 							</div><!-- /collapse -->
@@ -353,7 +374,7 @@
 										<li>Pizza and drinks will be available for all attendees</li>
 										<li>RP distribution is still being finalized</li>
 										<li>The winning team gets a trophy and university-wide bragging rights</li>
-										<li>More prizes yet to be announced</li>
+										<li>We are contacting potential sponsors to hopefully provide more prizes</li>
 									</ul>
 								</div><!-- /accordion-inner -->
 							</div><!-- /collapse -->
@@ -375,7 +396,10 @@
 					<div class="col-lg-4">
 						<br><br>
 						<h4><i class="fa fa-users"></i> Which team will you be a part of?</h4>
-						<p>We threw together some random team names that we thought would be funny and entertaining at the same time. There's nothing like a random niche word when it comes to inspiring people to work together!</p>
+						<p>What defines you? Do you plan to carry your team late game? Will you land a sick pentakill? Do you plan to
+						venture into the depths of the enemy jungle? Are you going to run in the face of certain death? Does the meta even matter?</p>
+						<p>This tournament will end up being up to how good you are as a team, not as a player. Our balancing algorithm
+						ensures a stable competitive environment, regardless of which team you land on:</p>
 						<ul>
 							<li>Team Bankai</li>
 							<li>Team Fuego</li>
@@ -415,11 +439,6 @@
 						<h4><i class="fa fa-question-circle"></i> Did you know?</h4>
 						<p>The reason we ask for your Summoner Name is not only for the tournament. We also get your ranked player
 							information from Riot in order to provide data for the algorithm we're building.</p>
-						<br><br>
-						<h4><i class="fa fa-puzzle-piece"></i> But you already have 8 teams?</h4>
-						<p>We honestly never foresaw the level of growth our site is currently experiencing, but that's not a bad thing.
-							I'm sure we can all agree that League of Legends is a pretty big deal, and we want to show people that. 
-							Anyways, that's why we have a Solutions Engineering Team, right?</p>
 						<br><br>
 					</div>
 				</div>
