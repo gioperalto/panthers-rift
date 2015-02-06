@@ -65,7 +65,7 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li class="dropdown">
 							<a href="#signin" data-toggle="modal" data-target=".bs-modal-sm">
-								Sign Up
+								<del>Sign Up</del>
 							</a>
 						</li>
 						<div class="navbar-form pull-left">
