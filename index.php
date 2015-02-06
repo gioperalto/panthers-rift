@@ -55,10 +55,19 @@
 
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav cl-effect-13">
-						<li><a href="./#home" class="smoothScroll">Home</a></li>
-						<li><a href="./#tournament" class="smoothScroll">Tournament</a></li>
-						<li><a href="./#teams" class="smoothScroll">Teams</a></li>
-						<li><a href="./#solutions" class="smoothScroll">Solutions</a></li>
+						<li class="dropdown">
+						  <a href="" id="homeLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    Home
+						    <span class="caret"></span>
+						  </a>
+						  <ul class="dropdown-menu" role="menu" aria-labelledby="homeLabel">
+						    <li><a href="./#home" class="smoothScroll">Home</a></li>
+							<li><a href="./#tournament" class="smoothScroll">Tournament</a></li>
+							<li><a href="./#teams" class="smoothScroll">Teams</a></li>
+							<li><a href="./#solutions" class="smoothScroll">Solutions</a></li>
+						  </ul>
+						</li>
+						
 					</ul>
 
 					<!-- Sign In / Sign Up -->
@@ -315,9 +324,9 @@
 							<div id="collapseOne" class="accordion-body collapse">
 								<div class="accordion-inner">
 									<ul>
-										<li>The tournament will be hosted at Florida International University Modesto A. Maidique Campus</li>
-										<li>Exact location and date are TBA (To Be Announced), however we are requesting an auditorium that
-											can hopefully accomodate at least 125 people</li>
+										<li>Both events will be hosted at FIU MMC in CP 145</li>
+										 <li>The qualifier will be from 12-6pm on March, 7th, 2015</li>
+										 <li>The main tournament will be from 12-6pm on March, 21st, 2015</li>
 									</ul>
 								</div><!-- /accordion-inner -->
 							</div><!-- /collapse -->
@@ -356,6 +365,7 @@
 										<li>If your team advances to main tournament, you have two weeks to prepare</li>
 										<li>Registrant accounts must be on League NA Server</li>
 										<li>You are not allowed to use scripts (examples: autocasting, hacks)</li>
+										<li>No smurf accounts! You will throw our algorithms out of wack</li>
 									</ul>
 								</div><!-- /accordion-inner -->
 							</div><!-- /collapse -->
@@ -433,8 +443,8 @@
 					<div class="col-lg-6">
 						<br><br>
 						<h4><i class="li_world"></i> We may not be rocket scientists but...</h4>
-						<p>We've assembled a team of Solutions Engineers to develop an algorithm that effectively balances team distribution.
-							We can't go into many details at the moment, but this algorithm should level the playing field.</p>
+						<p>We've assembled a team of Solutions Engineers to solve all of the practical problems we could possibly encounter.
+							This team is thinking of solutions for our power supply, internet connectivity, team distribution, etc.</p>
 						<br><br>
 						<h4><i class="fa fa-question-circle"></i> Did you know?</h4>
 						<p>The reason we ask for your Summoner Name is not only for the tournament. We also get your ranked player
