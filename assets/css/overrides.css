@@ -36,3 +36,8 @@ body {
 .no-btn {
 	cursor: none;
 }
+
+.dropdown-menu>li>a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
