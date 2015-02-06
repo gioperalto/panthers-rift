@@ -8,8 +8,8 @@
 
 	$mail->From = 'admin@panthersrift.com';
 	$mail->FromName = 'Panther\'s Rift';
-	$mail->addAddress('gyoperalto@gmail.com', 'Gio Peralto-Pritchard');     // Add a recipient
-	$mail->addReplyTo('gpera008@fiu.edu', 'Gio Peralto-Pritchard');
+	$mail->addAddress('gyoperalto@gmail.com');     // Add a recipient
+	$mail->addReplyTo('gpera008@fiu.edu');
 	// $mail->addCC('cc@example.com');
 
 	$mail->addAttachment('assets/img/amumu-img.png');         // Add attachments
