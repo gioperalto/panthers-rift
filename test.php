@@ -4,6 +4,8 @@
 
 	$mail = new PHPMailer;
 
+	$mail->Port = 587;                                    // TCP port to connect to
+
 	$mail->From = 'admin@panthersrift.com';
 	$mail->FromName = 'Panther\'s Rift';
 	$mail->addAddress('gyoperalto@gmail.com', 'Gio Peralto-Pritchard');     // Add a recipient
@@ -15,7 +17,7 @@
 
 	$mail->Subject = 'Panther\'s Rift - Subject';
 	$mail->Body    = 'This is the HTML message body <b>in bold!</b>';
-	// $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+	$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
 	if(!$mail->send()) {
 	    echo 'Message could not be sent.';
