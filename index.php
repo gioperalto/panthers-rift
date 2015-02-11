@@ -235,6 +235,21 @@
 							  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 							  <strong>Problem!</strong> Riot has no data on your account.
 							</div>
+						<?php } else if(isset($_GET['confirmed'])) { ?>
+							<div class="alert alert-warning alert-dismissible" role="alert">
+							  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							  <strong>Warning!</strong> You have already been confirmed as a competitor or sub for this tournament.
+							</div>
+						<?php } else if(isset($_GET['main'])) { ?>
+							<div class="alert alert-success alert-dismissible" role="alert">
+							  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							  <strong>Success!</strong> You have been successfully added as a guarenteed competitor for the qualifier.
+							</div>
+						<?php } else if(isset($_GET['sub'])) { ?>
+							<div class="alert alert-warning alert-dismissible" role="alert">
+							  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							  <strong>Success, Maybe?</strong> Unfortunately we couldn't add you as a guarenteed competitor, but if anything happens you could get in.
+							</div>
 						<?php } ?>
 						
 						<h1>Welcome To <b>Panther's Rift</b></h1>
