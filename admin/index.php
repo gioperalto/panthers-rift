@@ -57,13 +57,15 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li class="dropdown"><a href="./logout.php"><span class="icon-lock"></span> Log Out</a></li>
 						<div class="navbar-form pull-left">
-							<a class="btn btn-sm btn-theme no-btn">
+							<a class="btn btn-sm btn-warning no-btn">
 								<?php 
 									// CONNECT TO DB
 									include '../config/db-con.php';
-									$selectAll = "SELECT user_summoner_name FROM user;";
+									$registrations = 0;
+									$selectAll = "SELECT user_id FROM competitor;";
 									if($result = mysqli_query($conn,$selectAll)): 
-										echo mysqli_num_rows($result) . ' registrations';
+										$registrations = mysqli_num_rows($result);
+										echo $registrations . '/80 qualifiers';
 									endif;
 								?>
 							</a>
