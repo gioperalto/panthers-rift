@@ -78,15 +78,15 @@
 							</a>
 						</li>
 						<div class="navbar-form pull-left">
-							<a class="btn btn-sm btn-theme no-btn">
+							<a class="btn btn-sm btn-warning no-btn">
 								<?php 
 									// CONNECT TO DB
 									include 'config/db-con.php';
 									$registrations = 0;
-									$selectAll = "SELECT user_summoner_name FROM user;";
+									$selectAll = "SELECT user_id FROM competitor;";
 									if($result = mysqli_query($conn,$selectAll)): 
 										$registrations = mysqli_num_rows($result);
-										echo $registrations . '/100 registered';
+										echo $registrations . '/80 qualifiers';
 									endif;
 								?>
 							</a>
@@ -111,59 +111,10 @@
 						<div id="myTabContent" class="tab-content">
 							<!-- Sign Up Form -->
 							<div class="tab-pane fade active in" id="signup">
-								<?php
-									if($registrations < 100):
-								?>
-								<form name="userForm" method="post" action="user/submit.php">
-									<fieldset>
-										<!-- Text input-->
-										<div class="control-group">
-											<label class="control-label" for="name">Name:</label>
-											<div class="controls">
-												<input id="name" name="name" class="form-control" type="text" placeholder="Your first and last name" class="input-large" required="">
-											</div>
-										</div>
-
-										<!-- Text input-->
-										<div class="control-group">
-											<label class="control-label" for="email">Email:</label>
-											<div class="controls">
-												<input id="email" name="email" class="form-control" type="text" placeholder="Your email address" class="input-large" required="">
-											</div>
-										</div>
-
-										<!-- Text input-->
-										<div class="control-group">
-											<label class="control-label" for="summoner_name">*Summoner Name:</label>
-											<div class="controls">
-												<input id="summoner_name" name="summoner_name" class="form-control" type="text" placeholder="Your summoner name" class="input-large" required="">
-											</div>
-										</div>
-
-										<!-- Button -->
-										<div class="control-group">
-											<label class="control-label" for="signup"></label>
-											<div class="controls">
-												<button id="signupButton" type="button" class="btn btn-theme btn-block">Register Me</button>
-											</div>
-										</div>
-
-										<div class="form-padding">
-											<span class="small">* See rules for specific information regarding registration</span>
-										</div>
-
-									</fieldset>
-								</form>
-								<?php
-									else:
-								?>
-									<div class="form-padding">In order to ensure the effectiveness of our balancing algorithm we have
-									closed registrations at 100 sign ups.</div>
-									<div class="form-padding">We apologize if you planned to register at this point, but the venue will
-									still be open to spectators if you want to come.</div>
-								<?php
-									endif;
-								?>
+								<div class="form-padding">In order to ensure the effectiveness of our balancing algorithm we have
+								closed registrations at 100 sign ups.</div>
+								<div class="form-padding">We apologize if you planned to register at this point, but the venue will
+								still be open to spectators if you want to come.</div>
 							</div><!-- /signup -->
 							
 							<!-- Sign In Form -->
