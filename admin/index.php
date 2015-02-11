@@ -82,12 +82,12 @@
 						<?php if(isset($_GET['success'])){ ?>
 							<div class="alert alert-success alert-dismissible" role="alert">
 							  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							  <strong>Success!</strong> Your message was successfully sent.
+							  <strong>Success!</strong> Your email has been sent.
 							</div>
 						<?php } else if(isset($_GET['fail'])) { ?>
 							<div class="alert alert-danger alert-dismissible" role="alert">
 							  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							  <strong>Error!</strong> Your mail could not be sent.
+							  <strong>Error!</strong> Your mail failed to send.
 							</div>
 						<?php } else if(isset($_GET['created'])) { ?>
 							<div class="alert alert-success alert-dismissible" role="alert">
@@ -156,8 +156,6 @@
 							  	<?php
 							  			endwhile;
 							  		endif;
-							  		// CLOSE CONNECTION
-									mysqli_close($conn);
 							  	?>
 							  </tbody>
 							</table>
@@ -192,51 +190,66 @@
 					<br>
 					<div class="bs-example bs-example-tabs">
 						<ul id="myTab" class="nav nav-tabs nav-justified">
-							<li class=""><a href="index.html#signup" data-toggle="tab">Coming Soon</a></li>
+							<li class=""><a href="index.html#signup" data-toggle="tab">Sponsor Email</a></li>
 						</ul>
 					</div>
-					<!--<div class="modal-body">
+					<div class="modal-body">
 						<div id="myTabContent" class="tab-content">
 							<div class="tab-pane fade active in" id="signin">
-								<form name="userForm" method="post" action="user/submit.php">
+								<form method="post" action="send-sponsor-email.php">
 									<fieldset>
 										<div class="control-group">
-											<label class="control-label" for="name">Name:</label>
+											<label class="control-label" for="name">Formal Name:</label>
 											<div class="controls">
-												<input id="name" name="name" class="form-control" type="text" placeholder="Your first and last name" class="input-large" required="">
+												<input name="admin_name" class="form-control" type="text" placeholder="Your first and last name" class="input-large" required="">
 											</div>
 										</div>
 
 										<div class="control-group">
-											<label class="control-label" for="email">Email:</label>
+											<label class="control-label" for="name">Sponsor Email:</label>
 											<div class="controls">
-												<input id="email" name="email" class="form-control" type="text" placeholder="Your email address" class="input-large" required="">
+												<input name="sponsor_email" class="form-control" type="email" placeholder="Enter sponsor" class="input-large" required="">
+												<?php 
+													$selectEmail = "SELECT admin_email FROM admin WHERE admin_id='" . $_SESSION['ADMIN_ID'] . "';";
+													if($result = mysqli_query($conn,$selectEmail)):
+														while($row = mysqli_fetch_assoc($result)):
+												?>
+												<input type="hidden" name="admin_email" value="<?php echo $row['admin_email']; ?>">
+												<?php
+														endwhile;
+													endif;
+													// CLOSE CONNECTION
+													mysqli_close($conn);
+												?>
 											</div>
 										</div>
 
 										<div class="control-group">
-											<label class="control-label" for="summoner_name">*Summoner Name:</label>
+											<label class="control-label" for="summoner_name">Subject:</label>
 											<div class="controls">
-												<input id="summoner_name" name="summoner_name" class="form-control" type="text" placeholder="Your summoner name" class="input-large" required="">
+												<input id="subject" name="subject" class="form-control" type="text" placeholder="Do not include Panther's Rift in this" class="input-large" required="">
+											</div>
+										</div>
+
+										<div class="control-group">
+											<label class="control-label" for="summoner_name">Content:</label>
+											<div class="controls">
+												<textarea id="messageArea" name="message" class="form-control" placeholder="Please encase your paragraphs in p tags (e.g. <p>content</p>)" rows="6" required=""></textarea>
 											</div>
 										</div>
 
 										<div class="control-group">
 											<label class="control-label" for="signup"></label>
 											<div class="controls">
-												<button id="signup" type="button" class="btn btn-theme btn-block">Register Me</button>
+												<button type="submit" class="btn btn-theme btn-block">Send Email</button>
 											</div>
-										</div>
-
-										<div class="form-padding">
-											<span class="small">* See rules for specific information regarding registration</span>
 										</div>
 
 									</fieldset>
 								</form>
 							</div>
 						</div>
-					</div>--><!-- /modal-body -->
+					</div><!-- /modal-body -->
 
 					<div class="modal-footer">
 						<center>
