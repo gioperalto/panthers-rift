@@ -37,9 +37,9 @@
 
 	if($is_sub == 'N') {
 		// REDIRECT TO MAIN
-		header("Location: ../confirmed.php?main");
+		header("Location: ../?main");
 	} else {
 		// REDIRECT TO SUB
-		header("Location: ../confirmed.php?sub");
+		header("Location: ../?sub");
 	}
 ?>

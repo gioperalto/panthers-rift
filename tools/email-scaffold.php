@@ -116,14 +116,9 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td align="center" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                                                <table border="0" cellpadding="0" cellspacing="0" class="callToActionButton" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #F0F0F0;border-radius: 4px;box-shadow: 0 5px 0 #c0392b; margin-top:40px;">
-                                                    <tr>
-                                                        <td align="center" valign="top" class="callToActionButtonContent" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;padding-top: 20px;padding-right: 40px;padding-bottom: 20px;padding-left: 40px;color: #D83826;display: block;font-size: 24px;font-weight: bold;line-height: 100%;letter-spacing: -1px;text-align: center;text-decoration: none;">
-                                                            <a href="#" target="_blank" title="square gallery" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e74c3c;display: block;font-size: 24px;font-weight: bold;line-height: 100%;letter-spacing: -1px;text-align: center;text-decoration: none;">Confirm</a>
-                                                        </td>
-                                                    </tr>
-                                                </table>
+                                            <td align="left" valign="top" class="introductionContent" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;color: #fff;font-size: 18px;line-height: 150%;padding-top: 40px;">
+                                                <!--replace-->
+                                                Joe Shmoe<br>Admin<br>Panther's Rift
                                             </td>
                                         </tr>
                                     </table>
@@ -138,9 +133,9 @@
                                     <table border="0" cellpadding="0" cellspacing="0" width="600" id="footerBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                         <tr>
                                             <td align="center" valign="top" class="footerContent" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;color: #333;font-size: 13px;line-height: 150%;padding-bottom: 40px;">
-                                                <strong>As always, we appreciate you taking the time to read our emails.
+                                                <strong>Thank you for taking the time to read this email!
                                                 <br>
-                                                Thank you for your continued support!</strong>
+                                                We look forward to hearing from you.</strong>
                                             </td>
                                         </tr>
                                         <tr>
