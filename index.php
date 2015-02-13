@@ -421,49 +421,49 @@
 				</div><!-- /row -->
 				<div class="row">
 					<div class="col-lg-4">
-						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
 					</div>
 					<div class="col-lg-4">
-						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+						<a href="sponsors/"><h1>Become a Diamond Sponsor</h1></a>
+						<!-- INSERT SPONSOR HERE -->
 					</div>
 					<div class="col-lg-4">
-						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+						<!-- INSERT SPONSOR HERE -->
 					</div>
 				</div>
 				<div class="row">
 					<h2>Platinum Sponsors</h2>
 					<div class="col-lg-3">
-						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
 					</div>
 					<div class="col-lg-3">
-						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+						<!-- INSERT SPONSOR HERE -->
 					</div>
 					<div class="col-lg-3">
-						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+						<a href="sponsors/"><h2>Become a Platinum Sponsor</h2></a>
+						<!-- INSERT SPONSOR HERE -->
 					</div>
 					<div class="col-lg-3">
-						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+						<!-- INSERT SPONSOR HERE -->
 					</div>
 				</div><!-- /row -->
 				<div class="row">
 					<h3>Gold Sponsors</h3>
 					<div class="col-lg-2">
-						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
 					</div>
 					<div class="col-lg-2">
-						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+						<!-- INSERT SPONSOR HERE -->
 					</div>
 					<div class="col-lg-2">
-						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+						<!-- INSERT SPONSOR HERE -->
 					</div>
 					<div class="col-lg-2">
-						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+						<!-- INSERT SPONSOR HERE -->
 					</div>
 					<div class="col-lg-2">
-						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+						<a href="sponsors/"><h3>Become a Gold Sponsor</h3></a>
+						<!-- INSERT SPONSOR HERE -->
 					</div>
 					<div class="col-lg-2">
-						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+						<!-- INSERT SPONSOR HERE -->
 					</div>
 				</div><!-- /row -->
 
