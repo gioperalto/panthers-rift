@@ -372,20 +372,11 @@
 					<div class="col-lg-4">
 						<br><br>
 						<h4><i class="fa fa-users"></i> Which team will you be a part of?</h4>
-						<p>What defines you? Do you plan to carry your team late game? Will you land a sick pentakill? Do you plan to
-						venture into the depths of the enemy jungle? Are you going to run in the face of certain death? Does the meta even matter?</p>
+						<p>We've decided to remove team names for now, because the information isn't necessary until teams have been decided.
+						We have also realized that finalizing team names may limit us in terms of growth, so the names you may have seen are
+						subject to change.</p>
 						<p>This tournament will end up being up to how good you are as a team, not as a player. Our balancing algorithm
 						ensures a stable competitive environment, regardless of which team you land on:</p>
-						<ul>
-							<li>Team Bankai</li>
-							<li>Team Fuego</li>
-							<li>Team Hot Sauce</li>
-							<li>Team Mordor</li>
-							<li>Team Pollo</li>
-							<li>Team Sparta</li>
-							<li>Team SSD</li>
-							<li>Team Trollo</li>
-						</ul>
 						<br><br>
 					</div>
 

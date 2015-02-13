@@ -1,5 +1,5 @@
 <?php
-	require 'PHPMailerAutoload.php';
+	require_once 'PHPMailerAutoload.php';
 
 	function sendRegistrationEmail($name, $email, $id) {
 
@@ -20,8 +20,6 @@
 
 		//INITIALIZE MAILER
 		$mail = new PHPMailer;
-
-		// $mail->SMTPDebug = 1; 
 
 		$mail->isSMTP();                                      // Set mailer to use SMTP
 		$mail->Host = 'smtp.gmail.com';  					  // Specify main and backup SMTP servers
