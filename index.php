@@ -38,7 +38,6 @@
 		  ga('send', 'pageview');
 		</script>
 	</head>
-
 	<body data-spy="scroll" data-offset="0" data-target="#navigation">
 
 		<!-- Fixed navbar -->
@@ -65,9 +64,10 @@
 							<li><a href="./#tournament" class="smoothScroll">Tournament</a></li>
 							<li><a href="./#teams" class="smoothScroll">Teams</a></li>
 							<li><a href="./#solutions" class="smoothScroll">Solutions</a></li>
+							<li><a href="./#sponsors" class="smoothScroll">Sponsors</a></li>
 						  </ul>
 						</li>
-						
+						<li><a href="sponsors/">Become a Sponsor</a></li>						
 					</ul>
 
 					<!-- Sign In / Sign Up -->
@@ -411,6 +411,64 @@
 				</div>
 			</div>
 		</div>
+	
+		<!-- Footer Wrap -->
+		<section id="sponsors"></section>
+		<div id="footerwrap">
+			<div class="container">
+				<div class="row">
+					<h1>Diamond Sponsors</h1>
+				</div><!-- /row -->
+				<div class="row">
+					<div class="col-lg-4">
+						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+					</div>
+					<div class="col-lg-4">
+						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+					</div>
+					<div class="col-lg-4">
+						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+					</div>
+				</div>
+				<div class="row">
+					<h2>Platinum Sponsors</h2>
+					<div class="col-lg-3">
+						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+					</div>
+					<div class="col-lg-3">
+						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+					</div>
+					<div class="col-lg-3">
+						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+					</div>
+					<div class="col-lg-3">
+						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+					</div>
+				</div><!-- /row -->
+				<div class="row">
+					<h3>Gold Sponsors</h3>
+					<div class="col-lg-2">
+						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+					</div>
+					<div class="col-lg-2">
+						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+					</div>
+					<div class="col-lg-2">
+						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+					</div>
+					<div class="col-lg-2">
+						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+					</div>
+					<div class="col-lg-2">
+						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+					</div>
+					<div class="col-lg-2">
+						<img class="img-responsive" src="assets/img/sponsors/Microsoft.png" alt="">
+					</div>
+				</div><!-- /row -->
+
+			</div><!-- /container -->
+		</div><!-- /footerwrap -->
 
 		<!-- Divider 2 Section -->
 		<div id="divider02">

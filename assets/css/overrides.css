@@ -7,6 +7,26 @@ body {
 	background-size: cover;
 }
 
+#headerwrap.sponsor-bg {
+	background: url('../img/ice-bg.jpg') no-repeat center top;
+	background-size: cover;
+}
+
+#footerwrap {
+	background-color: #333;
+	color: #777;
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+#footerwrap h1, #footerwrap h2, #footerwrap h4, #footerwrap h5, #footerwrap h6 {
+	color: #fff;
+}
+
+#featureswrap.sponsor-section {
+	padding-bottom: 0px;
+}
+
 .admin-wrap {
 	background: url('../img/background-img-2.jpg') no-repeat center top !important;
 	background-size: 100% 100% !important;
@@ -40,4 +60,8 @@ body {
 .dropdown-menu>li>a {
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+
+.ice h1, .ice h3{
+	color: #333 !important;
 }
