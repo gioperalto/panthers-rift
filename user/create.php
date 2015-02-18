@@ -34,8 +34,15 @@
 	. $email . "','" . $summoner_name . "','" . $summoner_rank . "',CURRENT_TIMESTAMP());";
 	mysqli_query($conn,$insert);
 
+	require_once '../tools/emailer.php';
+
+	$selectLast = "SELECT user_id,user_name,user_email FROM user ORDER BY user_id DESC LIMIT 1;";
+	if($result = mysqli_query($conn,$selectLast)) {
+		while($row = mysqli_fetch_assoc($result)) {
+			sendRegistrationEmail($row['user_name'],$row['user_email'],$row['user_id']);
+		}
+	}	
+
 	// CLOSE CONNECTION
 	mysqli_close($conn);
-	// SUCCESS
-	header("Location: ../?success");
 ?>

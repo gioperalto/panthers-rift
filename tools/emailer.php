@@ -12,7 +12,7 @@
 		All that is left is to confirm your attendance by clicking the big button below, but please <strong>HURRY</strong> because
 		there are only 80 guarenteed spots for those who plan to compete in the qualifiers.
 		</p><p>
-		If you happen to be one of the last 20 people to register, there will still be hope! You will still be added to our sub
+		If you happen to be miss the opportunity to register as one of the 80 competitors, there will still be hope! You will still be added to our sub
 		queue, which means you are next in line if someone drops out of the tournament due to an accident, personal matter, etc.
 		</p><p>
 		Nevertheless, good luck! We hope to see you at the big event!
@@ -25,7 +25,7 @@
 		$mail->Host = 'smtp.gmail.com';  					  // Specify main and backup SMTP servers
 		$mail->SMTPAuth = true;                               // Enable SMTP authentication
 		// INCLUDE CONFIG SETTINGS FOR EMAIL
-		require 'config/mail-config.php';
+		require '../config/mail-config.php';
 		$mail->Username = getEmail();
 		$mail->Password = getPassword();
 
@@ -207,10 +207,12 @@
 		$mail->AltBody 	= $message;
 
 		if(!$mail->send()){
-			header("Location: admin/?fail");
+			// FAIL
+			header("Location: ../?fail");
 		}
 		else {
-			header("Location: admin/?success");
+			// SUCCESS
+			header("Location: ../?success");
 		}	
 	}
 

@@ -73,11 +73,6 @@
 
 					<!-- Sign In / Sign Up -->
 					<ul class="nav navbar-nav navbar-right">
-						<li class="dropdown">
-							<a href="#signin" data-toggle="modal" data-target=".bs-modal-sm">
-								<del>Sign Up</del>
-							</a>
-						</li>
 						<div class="navbar-form pull-left">
 							<a class="btn btn-sm btn-warning no-btn">
 								<?php 
