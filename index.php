@@ -74,7 +74,7 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li class="dropdown">
 							<a href="#signin" data-toggle="modal" data-target=".bs-modal-sm">
-								<del>Sign Up</del>
+								Sign Up
 							</a>
 						</li>
 						<div class="navbar-form pull-left">
@@ -111,12 +111,47 @@
 						<div id="myTabContent" class="tab-content">
 							<!-- Sign Up Form -->
 							<div class="tab-pane fade active in" id="signup">
-								<div class="form-padding">In order to ensure the effectiveness of our balancing algorithm we have
-								closed registrations at 100 sign ups.</div>
-								<div class="form-padding">We apologize if you planned to register at this point, but the venue will
-								still be open to spectators if you want to come.</div>
+								<form name="userForm" method="post" action="user/submit.php">
+									<fieldset>
+										<!-- Text input-->
+										<div class="control-group">
+											<label class="control-label" for="name">Name:</label>
+											<div class="controls">
+												<input id="name" name="name" class="form-control" type="text" placeholder="Your first and last name" class="input-large" required="">
+											</div>
+										</div>
+
+										<!-- Text input-->
+										<div class="control-group">
+											<label class="control-label" for="email">Email:</label>
+											<div class="controls">
+												<input id="email" name="email" class="form-control" type="text" placeholder="Your email address" class="input-large" required="">
+											</div>
+										</div>
+
+										<!-- Text input-->
+										<div class="control-group">
+											<label class="control-label" for="summoner_name">*Summoner Name:</label>
+											<div class="controls">
+												<input id="summoner_name" name="summoner_name" class="form-control" type="text" placeholder="Your summoner name" class="input-large" required="">
+											</div>
+										</div>
+
+										<!-- Button -->
+										<div class="control-group">
+											<label class="control-label" for="signup"></label>
+											<div class="controls">
+												<button id="signupButton" type="button" class="btn btn-theme btn-block">Register Me</button>
+											</div>
+										</div>
+
+										<div class="form-padding">
+											<span class="small">* See rules for specific information regarding registration</span>
+										</div>
+
+									</fieldset>
+								</form>
 							</div><!-- /signup -->
-							
 							<!-- Sign In Form -->
 							<div class="tab-pane fade in" id="signin">
 								<form class="form-horizontal" method="post" action="admin/login.php">
@@ -158,7 +193,6 @@
 				</div><!-- /modal-content -->
 			</div><!-- /modal-dialog -->
 		</div><!-- /modal -->
-
 
 		<!-- Header Wrap -->
 		<section id="home" name="home"></section>
