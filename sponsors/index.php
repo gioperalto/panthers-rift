@@ -152,6 +152,8 @@
 										<li>Shoutouts at our two events and our streams</li>
 										<li>Make a direct impact on over 100 people</li>
 										<li>Immense involvement in community building</li>
+										<li>Bloggers will be writing about this event</li>
+										<li>Meet promising developer undergrads</li>
 									</ul>
 								</div><!-- /accordion-inner -->
 							</div><!-- /collapse -->
