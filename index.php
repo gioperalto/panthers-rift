@@ -408,70 +408,70 @@
 					<div class="row text-center paper">
 						<div class="col-sm-3">
 							<ol>
-								<li>CruistheTitan</li>
+								<li>Xenasus</li>
+								<li>ddthorn</li>
+								<li>Enmanuelgg</li>
 								<li>carnivalsheriff</li>
-								<li>Oesteria</li>
-								<li>dilut3</li>
-								<li>Saggytitis</li>
+								<li>bigtokesmcgee</li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
-								<li>ReddLaw</li>
+								<li>Luisthepanda</li>
+								<li>MearAzn</li>
+								<li>KamikazeBen</li>
+								<li>j4d3</li>
+								<li>Madcoat</li>
+							</ol>
+						</div>
+						<div class="col-sm-3">
+							<ol>
+								<li>Puki</li>
+								<li>PrincessMarky</li>
+								<li>liquidshadowfox</li>
+								<li>l4pr4s</li>
+								<li>P1ngachu</li>
+							</ol>
+							<div class="push-right power">VS</div>
+							<ol>
+								<li>faldin</li>
+								<li>darthsoulfood</li>
+								<li>zreize</li>
+								<li>Poisoneye</li>
+								<li>OhGeeNivi</li>
+							</ol>
+						</div>
+						<div class="col-sm-3">
+							<ol>
+								<li>qTzzxD</li>
+								<li>Mrboogur</li>
 								<li>Deadoplis</li>
-								<li>A0Spades</li>
-								<li>mirlchrisylo</li>
 								<li>emtgd10s</li>
+								<li>theslayer703</li>
+							</ol>
+							<div class="push-right power">VS</div>
+							<ol>
+								<li>GambaJabari</li>
+								<li>NicolastehGreat</li>
+								<li>A0Spades</li>
+								<li>blk145</li>
+								<li>mackerelslayer</li>
 							</ol>
 						</div>
 						<div class="col-sm-3">
 							<ol>
 								<li>zerok00l</li>
-								<li>theslayer703</li>
-								<li>jasodysseus</li>
-								<li>Tunabarrage</li>
-								<li>Taeverius</li>
+								<li>BoomStar51</li>
+								<li>LordZaynex</li>
+								<li>celestiah</li>
+								<li>canufeelitkrabs</li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
-								<li>GENIFIC</li>
-								<li>WhoDaFuhhh</li>
-								<li>ddthorn</li>
-								<li>Panconpeenga</li>
-								<li>aurology</li>
-							</ol>
-						</div>
-						<div class="col-sm-3">
-							<ol>
-								<li>Blastoy</li>
-								<li>Madcoat</li>
-								<li>backdoorentry1</li>
-								<li>GambaJabari</li>
-								<li>l4pr4s</li>
-							</ol>
-							<div class="push-right power">VS</div>
-							<ol>
-								<li>NemesisII</li>
-								<li>OhGeeNivi</li>
-								<li>darkcloudking</li>
-								<li>Xenusus</li>
-								<li>FantasyDiamond</li>
-							</ol>
-						</div>
-						<div class="col-sm-3">
-							<ol>
-								<li>PrincessMarky</li>
-								<li>faldin</li>
-								<li>Livan</li>
-								<li>MrSuperior</li>
-								<li>liquidshadowfox</li>
-							</ol>
-							<div class="push-right power">VS</div>
-							<ol>
-								<li>P1ngachu</li>
-								<li>Tasogoro</li>
-								<li>Suicidalwaffles</li>
-								<li>blk145</li>
-								<li>KamikazeBen</li>
+								<li>Exelight</li>
+								<li>Galeonez</li>
+								<li>PaleoEpic</li>
+								<li>ReddLaw</li>
+								<li>Chimera41</li>
 							</ol>
 						</div>
 					</div>
@@ -479,70 +479,70 @@
 					<div class="row text-center paper">
 						<div class="col-sm-3">
 							<ol>
-								<li>SpecialName</li>
-								<li>ZerkerMiner</li>
-								<li>zreize</li>
-								<li>LOMO420</li>
-								<li>Exelight</li>
+								<li>Livan</li>
+								<li>mirlchrisylo</li>
+								<li>backdoorentry1</li>
+								<li>FantasyDiamond</li>
+								<li>Dinocannon</li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
-								<li>Jabkal</li>
-								<li>Dinocannon</li>
-								<li>Puki</li>
 								<li>ShadeLlewellyn</li>
-								<li>raccoonlove</li>
+								<li>hax0ran</li>
+								<li>LOMO420</li>
+								<li>Secretic</li>
+								<li>kelsisco</li>
 							</ol>
 						</div>
 						<div class="col-sm-3">
+							<ol>
+								<li>Panconpeenga</li>
+								<li>ZerkerMiner</li>
+								<li>dilut3</li>
+								<li>MrSuperior</li>
+								<li>Tunabarrage</li>
+							</ol>
+							<div class="push-right power">VS</div>
 							<ol>
 								<li>TyroneJenkinsII</li>
-								<li>Luisthepanda</li>
-								<li>j4d3</li>
-								<li>kelsisco</li>
-								<li>Chimera41</li>
-							</ol>
-							<div class="push-right power">VS</div>
-							<ol>
-								<li>Guario</li>
-								<li>mackerelslayer</li>
-								<li>canufeelitkrabs</li>
-								<li>Trishoryuken</li>
-								<li>BoomStar51</li>
+								<li>Taeverius</li>
+								<li>NemesisII</li>
+								<li>Suicidalwaffles</li>
+								<li>iNiinjah</li>
 							</ol>
 						</div>
 						<div class="col-sm-3">
 							<ol>
-								<li>NicolastehGreat</li>
-								<li>Panthurnanx</li>
-								<li>PaleoEpic</li>
-								<li>Mrboogur</li>
-								<li>hax0ran</li>
-							</ol>
-							<div class="push-right power">VS</div>
-							<ol>
-								<li>MearAzn</li>
-								<li>Poisoneye</li>
+								<li>Oesteria</li>
+								<li>darkcloudking</li>
 								<li>TGDoubleD</li>
-								<li>Galeonez</li>
-								<li>Secretic</li>
+								<li>Blastoy</li>
+								<li>GENIFIC</li>
 							</ol>
-						</div>
-						<div class="col-sm-3">
+							<div class="push-right power">VS</div>
 							<ol>
 								<li>LucidNightmare</li>
-								<li>LordZaynex</li>
-								<li>bigtokesmcgee</li>
-								<li>Enmanuelgg</li>
-								<li>celestiah</li>
+								<li>Guario</li>
+								<li>raccoonlove</li>
+								<li>mathmonkey</li>
+								<li>BigBoss255</li>
+							</ol>
+						</div>
+						<div class="col-sm-3">
+							<ol>
+								<li>Jabkal</li>
+								<li>Trishoryuken</li>
+								<li>Tasogoro</li>
+								<li>SpecialName</li>
+								<li>aurology</li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
-								<li>qTzzxD</li>
-								<li>BigBoss255</li>
-								<li>iNiinjah</li>
-								<li>mathmonkey</li>
-								<li>darthsoulfood</li>
+								<li>CruistheTitan</li>
+								<li>jasodysseus</li>
+								<li>Panthurnanx</li>
+								<li>Saggytitis</li>
+								<li>WhoDaFuhhh</li>
 							</ol>
 						</div>
 					</div>
