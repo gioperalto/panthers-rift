@@ -401,21 +401,150 @@
 			<div class="container">
 				<div class="row">
 					<h2 class="text-center">Teams</h2>
-					<hr><br><br>
-					<div class="col-lg-2"></div>
-					<div class="col-lg-4">
-						<br><br>
-						<h4><i class="fa fa-users"></i> Which team will you be a part of?</h4>
-						<p>We've decided to remove team names for now, because the information isn't necessary until teams have been decided.
-						We have also realized that finalizing team names may limit us in terms of growth, so the names you may have seen are
-						subject to change.</p>
-						<p>This tournament will end up being up to how good you are as a team, not as a player. Our balancing algorithm
-						ensures a stable competitive environment, regardless of which team you land on:</p>
-						<br><br>
-					</div>
+					<hr>
+					<p class="text-center">Below are the official teams to enter the Panther's Rift Qualifier!
+					<br> Based on the results, we believe any team could come out on top.</p>
 
-					<div class="col-lg-6">
-						<img class="img-responsive" src="assets/img/teemo-img.png" alt="">
+					<div class="row text-center paper">
+						<div class="col-sm-3">
+							<ol>
+								<li>CruistheTitan</li>
+								<li>carnivalsheriff</li>
+								<li>Oesteria</li>
+								<li>dilut3</li>
+								<li>Saggytitis</li>
+							</ol>
+							<div class="push-right power">VS</div>
+							<ol>
+								<li>ReddLaw</li>
+								<li>Deadoplis</li>
+								<li>A0Spades</li>
+								<li>mirlchrisylo</li>
+								<li>emtgd10s</li>
+							</ol>
+						</div>
+						<div class="col-sm-3">
+							<ol>
+								<li>zerok00l</li>
+								<li>theslayer703</li>
+								<li>jasodysseus</li>
+								<li>Tunabarrage</li>
+								<li>Taeverius</li>
+							</ol>
+							<div class="push-right power">VS</div>
+							<ol>
+								<li>GENIFIC</li>
+								<li>WhoDaFuhhh</li>
+								<li>ddthorn</li>
+								<li>Panconpeenga</li>
+								<li>aurology</li>
+							</ol>
+						</div>
+						<div class="col-sm-3">
+							<ol>
+								<li>Blastoy</li>
+								<li>Madcoat</li>
+								<li>backdoorentry1</li>
+								<li>GambaJabari</li>
+								<li>l4pr4s</li>
+							</ol>
+							<div class="push-right power">VS</div>
+							<ol>
+								<li>NemesisII</li>
+								<li>OhGeeNivi</li>
+								<li>darkcloudking</li>
+								<li>Xenusus</li>
+								<li>FantasyDiamond</li>
+							</ol>
+						</div>
+						<div class="col-sm-3">
+							<ol>
+								<li>PrincessMarky</li>
+								<li>faldin</li>
+								<li>Livan</li>
+								<li>MrSuperior</li>
+								<li>liquidshadowfox</li>
+							</ol>
+							<div class="push-right power">VS</div>
+							<ol>
+								<li>P1ngachu</li>
+								<li>Tasogoro</li>
+								<li>Suicidalwaffles</li>
+								<li>blk145</li>
+								<li>KamikazeBen</li>
+							</ol>
+						</div>
+					</div>
+					<br>
+					<div class="row text-center paper">
+						<div class="col-sm-3">
+							<ol>
+								<li>SpecialName</li>
+								<li>ZerkerMiner</li>
+								<li>zreize</li>
+								<li>LOMO420</li>
+								<li>Exelight</li>
+							</ol>
+							<div class="push-right power">VS</div>
+							<ol>
+								<li>Jabkal</li>
+								<li>Dinocannon</li>
+								<li>Puki</li>
+								<li>ShadeLlewellyn</li>
+								<li>raccoonlove</li>
+							</ol>
+						</div>
+						<div class="col-sm-3">
+							<ol>
+								<li>TyroneJenkinsII</li>
+								<li>Luisthepanda</li>
+								<li>j4d3</li>
+								<li>kelsisco</li>
+								<li>Chimera41</li>
+							</ol>
+							<div class="push-right power">VS</div>
+							<ol>
+								<li>Guario</li>
+								<li>mackerelslayer</li>
+								<li>canufeelitkrabs</li>
+								<li>Trishoryuken</li>
+								<li>BoomStar51</li>
+							</ol>
+						</div>
+						<div class="col-sm-3">
+							<ol>
+								<li>NicolastehGreat</li>
+								<li>Panthurnanx</li>
+								<li>PaleoEpic</li>
+								<li>Mrboogur</li>
+								<li>hax0ran</li>
+							</ol>
+							<div class="push-right power">VS</div>
+							<ol>
+								<li>MearAzn</li>
+								<li>Poisoneye</li>
+								<li>TGDoubleD</li>
+								<li>Galeonez</li>
+								<li>Secretic</li>
+							</ol>
+						</div>
+						<div class="col-sm-3">
+							<ol>
+								<li>LucidNightmare</li>
+								<li>LordZaynex</li>
+								<li>bigtokesmcgee</li>
+								<li>Enmanuelgg</li>
+								<li>celestiah</li>
+							</ol>
+							<div class="push-right power">VS</div>
+							<ol>
+								<li>qTzzxD</li>
+								<li>BigBoss255</li>
+								<li>iNiinjah</li>
+								<li>mathmonkey</li>
+								<li>darthsoulfood</li>
+							</ol>
+						</div>
 					</div>
 				</div>
 			</div>

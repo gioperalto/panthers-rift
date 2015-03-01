@@ -65,3 +65,16 @@ body {
 .ice h1, .ice h3{
 	color: #333 !important;
 }
+
+.push-right {
+	margin-left: 2.5em;
+}
+
+.power {
+	font-weight: bold;
+}
+
+.paper {
+	background-color: #fff;
+	padding: 10px;
+}
