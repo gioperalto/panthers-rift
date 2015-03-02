@@ -402,9 +402,12 @@
 				<div class="row">
 					<h2 class="text-center">Teams</h2>
 					<hr>
-					<p class="text-center">Below are the official teams to enter the Panther's Rift Qualifier!
-					<br> Based on the results, we believe any team could come out on top.</p>
-
+					<p class="text-center">
+						Below are the official teams to enter the Panther's Rift Qualifier!
+					<br>Based on the results, we believe any team could come out on top.
+					<br>Summoners highlighted in <span class="glow">yellow</span> are subject to change
+					</p>
+		
 					<div class="row text-center paper">
 						<div class="col-sm-3">
 							<ol>
@@ -412,7 +415,7 @@
 								<li>ddthorn</li>
 								<li>Enmanuelgg</li>
 								<li>carnivalsheriff</li>
-								<li>bigtokesmcgee</li>
+								<li><span class="glow">bigtokesmcgee</span></li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
@@ -428,7 +431,7 @@
 								<li>Puki</li>
 								<li>PrincessMarky</li>
 								<li>liquidshadowfox</li>
-								<li>l4pr4s</li>
+								<li><span class="glow">l4pr4s</span></li>
 								<li>P1ngachu</li>
 							</ol>
 							<div class="push-right power">VS</div>
@@ -480,7 +483,7 @@
 						<div class="col-sm-3">
 							<ol>
 								<li>Livan</li>
-								<li>mirlchrisylo</li>
+								<li><span class="glow">mirlchrisylo</span></li>
 								<li>backdoorentry1</li>
 								<li>FantasyDiamond</li>
 								<li>Dinocannon</li>
@@ -538,7 +541,7 @@
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
-								<li>CruistheTitan</li>
+								<li><span class="glow">CruistheTitan</span></li>
 								<li>jasodysseus</li>
 								<li>Panthurnanx</li>
 								<li>Saggytitis</li>
