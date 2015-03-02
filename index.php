@@ -408,7 +408,7 @@
 					<div class="row text-center paper">
 						<div class="col-sm-3">
 							<ol>
-								<li>Xenasus</li>
+								<li>Xenusus</li>
 								<li>ddthorn</li>
 								<li>Enmanuelgg</li>
 								<li>carnivalsheriff</li>
