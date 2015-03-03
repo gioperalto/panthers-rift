@@ -415,7 +415,7 @@
 								<li>ddthorn</li>
 								<li>Enmanuelgg</li>
 								<li>carnivalsheriff</li>
-								<li>quickfix92</li>
+								<li>pronetiger</li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
