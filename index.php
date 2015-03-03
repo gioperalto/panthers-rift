@@ -415,7 +415,7 @@
 								<li>ddthorn</li>
 								<li>Enmanuelgg</li>
 								<li>carnivalsheriff</li>
-								<li><span class="glow">bigtokesmcgee</span></li>
+								<li>quickfix92</li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
@@ -431,7 +431,7 @@
 								<li>Puki</li>
 								<li>PrincessMarky</li>
 								<li>liquidshadowfox</li>
-								<li><span class="glow">l4pr4s</span></li>
+								<li>JZaber</li>
 								<li>P1ngachu</li>
 							</ol>
 							<div class="push-right power">VS</div>
