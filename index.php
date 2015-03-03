@@ -465,7 +465,7 @@
 								<li>zerok00l</li>
 								<li>BoomStar51</li>
 								<li>LordZaynex</li>
-								<li><span class="glow">celestiah</span></li>
+								<li>Carry me or lose</li>
 								<li>canufeelitkrabs</li>
 							</ol>
 							<div class="push-right power">VS</div>
