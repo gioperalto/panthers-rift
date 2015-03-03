@@ -465,7 +465,7 @@
 								<li>zerok00l</li>
 								<li>BoomStar51</li>
 								<li>LordZaynex</li>
-								<li>celestiah</li>
+								<li><span class="glow">celestiah</span></li>
 								<li>canufeelitkrabs</li>
 							</ol>
 							<div class="push-right power">VS</div>
@@ -541,7 +541,7 @@
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
-								<li><span class="glow">CruistheTitan</span></li>
+								<li>CriustheTitan</li>
 								<li>jasodysseus</li>
 								<li>Panthurnanx</li>
 								<li>Saggytitis</li>
