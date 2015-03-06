@@ -486,7 +486,7 @@
 								<li><span class="glow">mirlchrisylo</span></li>
 								<li>backdoorentry1</li>
 								<li>FantasyDiamond</li>
-								<li>Dinocannon</li>
+								<li><span class="glow">Dinocannon</span></li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
