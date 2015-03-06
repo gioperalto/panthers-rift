@@ -412,7 +412,7 @@
 						<div class="col-sm-3">
 							<ol>
 								<li>Xenusus</li>
-								<li>ddthorn</li>
+								<li><span class="glow">ddthorn</span></li>
 								<li>Enmanuelgg</li>
 								<li>carnivalsheriff</li>
 								<li>pronetiger</li>
@@ -437,7 +437,7 @@
 							<div class="push-right power">VS</div>
 							<ol>
 								<li>faldin</li>
-								<li>darthsoulfood</li>
+								<li><span class="red">darthsoulfood</span></li>
 								<li>zreize</li>
 								<li>Poisoneye</li>
 								<li>OhGeeNivi</li>
@@ -490,11 +490,11 @@
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
-								<li>ShadeLlewellyn</li>
-								<li>hax0ran</li>
-								<li>LOMO420</li>
+								<li><span class="glow">ShadeLlewellyn</span></li>
+								<li><span class="glow">hax0ran</span></li>
+								<li><span class="glow">LOMO420</span></li>
 								<li>Secretic</li>
-								<li>kelsisco</li>
+								<li><span class="red">kelsisco</span></li>
 							</ol>
 						</div>
 						<div class="col-sm-3">

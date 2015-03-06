@@ -82,3 +82,8 @@ body {
 .glow {
 	background-color: yellow;
 }
+
+.red {
+	background-color: #e74c3c;
+	color: white;
+}
