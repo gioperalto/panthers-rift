@@ -49,7 +49,9 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="./"><b>Panther's Rift</b></a>
+					<a class="navbar-brand" href="./">
+						<b>Panther's Rift</b>
+					</a>
 				</div>
 
 				<div class="navbar-collapse collapse">
@@ -63,7 +65,8 @@
 						    <li><a href="./#home" class="smoothScroll">Home</a></li>
 							<li><a href="./#tournament" class="smoothScroll">Tournament</a></li>
 							<li><a href="./#teams" class="smoothScroll">Teams</a></li>
-							<li><a href="./#solutions" class="smoothScroll">Solutions</a></li>
+							<li><a href="./#rules" class="smoothScroll">Rules</a></li>
+							<li><a href="./#lineup" class="smoothScroll">Lineup</a></li>
 							<li><a href="./#sponsors" class="smoothScroll">Sponsors</a></li>
 						  </ul>
 						</li>
@@ -305,7 +308,7 @@
 					<br>
 					<br>
 					<div class="col-lg-6">
-						<img class="img-responsive" src="assets/img/bracket-img.png" alt="">
+						<img class="img-responsive" src="assets/img/logo.png" alt="">
 					</div>
 
 					<div class="col-lg-6">
@@ -395,6 +398,7 @@
 			</div><!-- /container -->
 		</div><!-- /featureswrap -->
 
+
 		<!-- Features Wrap -->
 		<section id="teams" name="features"></section>
 		<div id="featureswrap">
@@ -410,6 +414,7 @@
 		
 					<div class="row text-center paper">
 						<div class="col-sm-3">
+							<span class="text-center power serious push-right">Match A</span>
 							<ol>
 								<li>Xenusus</li>
 								<li><span class="glow">ddthorn</span></li>
@@ -427,6 +432,7 @@
 							</ol>
 						</div>
 						<div class="col-sm-3">
+							<span class="text-center power serious push-right">Match B</span>
 							<ol>
 								<li>Puki</li>
 								<li>PrincessMarky</li>
@@ -437,16 +443,17 @@
 							<div class="push-right power">VS</div>
 							<ol>
 								<li>faldin</li>
-								<li><span class="red">darthsoulfood</span></li>
+								<li>Daltherion</li>
 								<li>zreize</li>
 								<li>Poisoneye</li>
 								<li>OhGeeNivi</li>
 							</ol>
 						</div>
 						<div class="col-sm-3">
+							<span class="text-center power serious push-right">Match C</span>
 							<ol>
 								<li>qTzzxD</li>
-								<li>Mrboogur</li>
+								<li><span class="glow">Mrboogur</span></li>
 								<li>Deadoplis</li>
 								<li>emtgd10s</li>
 								<li>theslayer703</li>
@@ -461,6 +468,7 @@
 							</ol>
 						</div>
 						<div class="col-sm-3">
+							<span class="text-center power serious push-right">Match D</span>
 							<ol>
 								<li>zerok00l</li>
 								<li>BoomStar51</li>
@@ -481,6 +489,7 @@
 					<br>
 					<div class="row text-center paper">
 						<div class="col-sm-3">
+							<span class="text-center power serious push-right">Match E</span>
 							<ol>
 								<li>Livan</li>
 								<li><span class="glow">mirlchrisylo</span></li>
@@ -494,10 +503,11 @@
 								<li><span class="glow">hax0ran</span></li>
 								<li><span class="glow">LOMO420</span></li>
 								<li>Secretic</li>
-								<li><span class="red">kelsisco</span></li>
+								<li>GeneralBio</li>
 							</ol>
 						</div>
 						<div class="col-sm-3">
+							<span class="text-center power serious push-right">Match F</span>
 							<ol>
 								<li>Panconpeenga</li>
 								<li>ZerkerMiner</li>
@@ -515,6 +525,7 @@
 							</ol>
 						</div>
 						<div class="col-sm-3">
+							<span class="text-center power serious push-right">Match G</span>
 							<ol>
 								<li>Oesteria</li>
 								<li>darkcloudking</li>
@@ -532,6 +543,7 @@
 							</ol>
 						</div>
 						<div class="col-sm-3">
+							<span class="text-center power serious push-right">Match H</span>
 							<ol>
 								<li>Jabkal</li>
 								<li>Trishoryuken</li>
@@ -551,33 +563,173 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div><!-- /featureswrap -->
+
 
 		<!-- Features Wrap -->
-		<section id="solutions" name="features"></section>
+		<section id="tournament" name="rules"></section>
 		<div id="featureswrap">
 			<div class="container">
 				<div class="row">
-					<h2 class="text-center">Solutions</h2>
-					<hr><br><br>
+					<h2 class="text-center">Rules</h2>
+					<p class="text-center">By attending this tournament you agree to the following rules:</p>
+					<hr>
+					<br>
+					<br>
+
 					<div class="col-lg-6">
-						<img class="img-responsive" src="assets/img/vayne-img.png" alt="">
+						<h2><i class="fa fa-warning"></i> Tournament Rules </h2>
+						<div class="tournament-item">
+							<h4>1. Tournament Organizer(s)</h4>
+							<p>Tournament organizers are responsible for:
+								<ul>
+									<li>Food needs as described by organizer</li>
+									<li>A suitable venue for you to compete or spectate in</li>
+									<li>Providing tournament officials of various roles to operate event</li>
+									<li>Providing subs for teams in the event that a player fails to make it</li>
+								</ul>
+							</p>
+						</div>
+						<div class="tournament-item">
+							<h4>2. Referees</h4>
+							<p>Referees will be appointed by tournament organizer(s) to ensure the appropriate
+								handling of delicate circumstances. Referee responsibilities include dealing
+								with the breach of any specified tournament rules, the breaking of any policy
+								rule violations brought to his attention and issuing penalties when players break
+								these rules.</p>
+							<p>These rules include (but are not limited to):
+								<ul>
+									<li>Using scripts (not provided by LoL) to enhance gameplay</li>
+									<li>Leaving a game during a match (rage quitting)</li>
+									<li>Treating fellow teammates disrepectfully</li>
+									<li>Bartering for another match style than what was specified</li>
+									<li>Entering the tournament under a smurf account</li>
+								</ul>
+							</p>
+							<p>Penalties that can be issued (but are not limited to):
+								<ul>
+									<li>The repetition of a match in order to ensure fairness</li>
+									<li>Removing a player from play for 1 minute</li>
+									<li>Removing a player from play for 5 minutes</li>
+									<li>Disqualification from a match</li>
+									<li>Ejection from tournament</li>
+								</ul>
+							</p>
+						</div>
+						<div class="tournament-item">
+							<h4>3. Shoutcasters</h4>
+							<p>Shoutcasters are tournament support staff charged with providing commentary to spectators.
+							Shoutcasters are appointed by tournament official(s) and are responsible for providing engaging
+							commentaries of matches without jeopardizing the fairness of the tournament matches in progress.</p>
+							<p>The following is classification of jeopardizing a tournament match in progress:
+								<ul>
+									<li>Suggesting specified improvements to gameplay style of an active player</li>
+									<li>Predicting future trends of an active match that may alter the outcome</li>
+									<li>Signaling in any way to a player as they are playing</li>
+								</ul>
+							</p>
+						</div>
+						<div class="tournament-item">
+							<h4>4. Players</h4>
+							<p>The most important rule with any player is that they need to represent good sportsmanship at
+								all times. </p>
+							<p>These are some essential rules we need you to follow as a contestant in Panther's Rift:
+								<ul>
+									<li>Arrive on time to your match</li>
+									<li>Bring any infraction to the notice of a referee or tournament official</li>
+									<li>Bring any discrepencies in match record to attention immediately</li>
+									<li>Inform Riot of any discrepencies in match history or rankings as soon as you become
+									 aware of it</li>
+								 	<li>We recommend you bring your own equipment, however if necessary equipment will
+								 		be provided</li>
+								</ul>
+							</p>
+						</div>
+						<div class="tournament-item">
+							<h4>5. Team Captain</h4>
+							<p>Every team will be responsible with electing a team captain. Captains are the main point
+								of contact between players on their team and tournament officials.</p>
+							<p>Some responsibilities of the Team Captain include:
+								<ul>
+									<li>Communicate with tournament officials on behalf of your team</li>
+									<li>Communicate with other teams on behalf of your team</li>
+									<li>Act as final authority for team decisions during the tournament</li>
+									<li>Communicate all required information to the entire team</li>
+									<li>Accurately represent the opinions of the team as a whole</li>
+								</ul>
+							</p>
+						</div>
+						<div class="tournament-item">
+							<h4>6. Spectators</h4>
+							<p>Spectators are more than welcome to this tournament. We plan to have a lot of excitement
+								and activities, however you follow the same set of rules as our commentators. We want a
+								fun, unified environment without breaking the balance of our tournament.</p>
+						</div>
 					</div>
+
 					<div class="col-lg-6">
-						<br><br>
-						<h4><i class="li_world"></i> We may not be rocket scientists but...</h4>
-						<p>We've assembled a team of Solutions Engineers to solve all of the practical problems we could possibly encounter.
-							This team is thinking of solutions for our power supply, internet connectivity, team distribution, etc.</p>
-						<br><br>
-						<h4><i class="fa fa-question-circle"></i> Did you know?</h4>
-						<p>The reason we ask for your Summoner Name is not only for the tournament. We also get your ranked player
-							information from Riot in order to provide data for the algorithm we're building.</p>
-						<br><br>
+						<h2><i class="fa fa-sitemap"></i> Tournament Mechanics </h2>
+						<div class="tournament-item">
+							<h4>General Rules</h4>
+							<p>All matches will be played on Summoner's Rift. Your team will have 5 minutes to prepare
+								for the match.</p>
+						</div>
+						<div class="tournament-item">
+							<h4>Panther's Rift Qualifier</h4>
+							<p>The Panther's Rift Qualifier will be a Single-Elimination tournament. This means a team
+								that loses once is eliminated. This tournament will also consist of 8 matches, reducing
+								16 teams to 8.</p>
+							<p>The <strong>Panther's Rift Qualifier</strong> will be held from 12-6pm on March 7th, 2015 at FIU (Florida
+								International University) MMC (Modesto A. Modique Campus) in CP (Chemistry & Physics) building
+								room 145</p>
+						</div>
+						<div class="tournament-item">
+							<h4>Panther's Rift Main Event</h4>
+							<p>The Panther's Rift Main event will consist of three bracket styles: Single, Double and Triple
+								Elimination.
+								<ul>
+									<li>The 8 entering teams will have a Single-Elimination round (4 will advance)</li>
+									<li>The 4 advancing teams will have a Double-Elimination round (2 will advance)</li>
+									<li>The final 2 teams will have a Triple-Elimination round to determine our winner</li>
+								</ul>
+							</p>
+							<p>The <strong>Panther's Rift Main Event</strong> will be held from 12-6pm on March 21st, 2015 at FIU (Florida
+								International University) MMC (Modesto A. Modique Campus) in CP (Chemistry & Physics) building
+								room 145</p>
+						</div>
 					</div>
+				</div><!-- /row -->
+				
+			</div><!-- /container -->
+		</div><!-- /featureswrap -->
+
+
+		<!-- Features Wrap -->
+		<section id="lineup" name="features"></section>
+		<div id="featureswrap">
+			<div class="container">
+				<h2 class="text-center">Lineup</h2>
+				<hr>
+				<p class="text-center">Below is the lineup for the tournament:</p>
+				<br>
+				<br>
+				<div class="row text-center paper">
+					<ol>
+						<li class="power serious">Match A - Starts at 12:30pm</li>
+						<li class="power serious">Match C - Starts at 1:15pm</li>
+						<li class="power serious">Match B - Starts at 2:00pm</li>
+						<li class="power serious">Match H - Starts at 2:45pm</li>
+						<li class="power serious">Match G - Starts at 3:30pm</li>
+						<li class="power serious">Match F - Starts at 4:15pm</li>
+						<li class="power serious">Match D - Starts at 5:00pm</li>
+						<li class="power serious">Match E - Starts at 5:45pm</li>
+
+					</ol>
 				</div>
 			</div>
 		</div>
 	
+
 		<!-- Footer Wrap -->
 		<section id="sponsors"></section>
 		<div id="footerwrap">
@@ -636,12 +788,14 @@
 			</div><!-- /container -->
 		</div><!-- /footerwrap -->
 
+
 		<!-- Divider 2 Section -->
 		<div id="divider02">
 			<div class="container text-center">
 				<h3>Hosted by <a class="grey" target="_blank" href="http://stars.cs.fiu.edu">FIU STARS</a> and <a class="grey" target="_blank" href="http://cs.fiu.edu/acm">FIU ACM</a>.</h3>
 			</div>
 		</div><!-- /divider02 -->
+
 
 		<!-- Copyright Wrap -->
 		<div id="copywrap">
@@ -653,6 +807,7 @@
 				</div><!-- /row -->
 			</div><!-- /container -->
 		</div><!-- /copywrap (copyright) -->
+
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="assets/js/jquery.min.js"></script>
