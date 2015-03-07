@@ -661,14 +661,14 @@
 				<br>
 				<div class="row text-center paper">
 					<ol>
-						<li class="power serious">Match A - Starts at 12:30pm</li>
-						<li class="power serious">Match C - Starts at 1:15pm</li>
-						<li class="power serious">Match B - Starts at 2:00pm</li>
-						<li class="power serious">Match H - Starts at 2:45pm</li>
-						<li class="power serious">Match G - Starts at 3:30pm</li>
-						<li class="power serious">Match F - Starts at 4:15pm</li>
-						<li class="power serious">Match D - Starts at 5:00pm</li>
-						<li class="power serious">Match E - Starts at 5:45pm</li>
+						<li class="power serious">Match A - Started at 2:00pm</li>
+						<li class="power serious">Match C - Started at 3:30pm</li>
+						<li class="power serious">Match B - Starts at 4:45pm</li>
+						<li class="power serious">Match F - Starts at 6:30pm</li>
+						<li class="power serious">Match H</li>
+						<li class="power serious">Match G</li>
+						<li class="power serious">Match D</li>
+						<li class="power serious">Match E</li>
 
 					</ol>
 				</div>
