@@ -453,11 +453,11 @@
 						<div class="col-sm-3">
 							<span class="text-center power serious push-right">Match G</span>
 							<ol>
-								<li>Oesteria</li>
-								<li>darkcloudking</li>
-								<li>TGDoubleD</li>
-								<li>Blastoy</li>
-								<li>jackonisgood</li>
+								<li>CriustheTitan</li>
+								<li>jasodysseus</li>
+								<li>Panthurnanx</li>
+								<li>Saggytitis</li>
+								<li>WhoDaFuhhh</li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
@@ -479,11 +479,11 @@
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
-								<li>CriustheTitan</li>
-								<li>jasodysseus</li>
-								<li>Panthurnanx</li>
-								<li>Saggytitis</li>
-								<li>WhoDaFuhhh</li>
+								<li>Oesteria</li>
+								<li>darkcloudking</li>
+								<li>TGDoubleD</li>
+								<li>Blastoy</li>
+								<li>jackonisgood</li>
 							</ol>
 						</div>
 						<div class="col-sm-3">
