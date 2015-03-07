@@ -317,71 +317,14 @@
 						 will be matched in a best of one match for the first round, which is also an elimination round. The four surviving teams
 						  of the elimination round will play a best-of-3 match series to advance to the final bracket. Our two finalist teams
 						   will compete in a best-of-5 match series to take home the grand prize.</p>
-
-						<div class="accordion-group">
-							<div class="accordion-heading">
-								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="./#collapseOne">
-								<i class="fa fa-map-marker"></i> Venue
-								</a> (Click for info)
-							</div>
-							<div id="collapseOne" class="accordion-body collapse">
-								<div class="accordion-inner">
-									<ul>
-										<li>Both events will be hosted at FIU MMC in CP 145</li>
-										 <li>The qualifier will be from 12-6pm on March, 7th, 2015</li>
-										 <li>The main tournament will be from 12-6pm on March, 21st, 2015</li>
-									</ul>
-								</div><!-- /accordion-inner -->
-							</div><!-- /collapse -->
-						</div><!-- /accordion-group -->
 						<br>
-
-							<div class="accordion-group">
-							<div class="accordion-heading">
-								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="./#collapseTwo">
-								<i class="fa fa-sitemap"></i> Qualifier
-								</a> (Click for info)
-							</div>
-							<div id="collapseTwo" class="accordion-body collapse">
-								<div class="accordion-inner">
-									<ul>
-										<li>16 teams will be reduced to 8 in a best of one elimination round</li>
-										<li>Teams that advance become one of our 8 teams for the main tournament</li>										
-									</ul>
-								</div><!-- /accordion-inner -->
-							</div><!-- /collapse -->
-						</div><!-- /accordion-group -->
-						<br>
-
-						<div class="accordion-group">
-							<div class="accordion-heading">
-								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="./#collapseThree">
-								<i class="fa fa-warning"></i> Rules
-								</a> (Click for info)
-							</div>
-							<div id="collapseThree" class="accordion-body collapse">
-								<div class="accordion-inner">
-									<ul>
-										<li>You are not in control of the team you are on (we have algorithms for that)</li>
-										<li>All matches will be played in 5v5 Draft format on Summoners Rift</li>
-										<li>Rage quit and you will be ejected from the tournament</li>
-										<li>If your team advances to main tournament, you have two weeks to prepare</li>
-										<li>Registrant accounts must be on League NA Server</li>
-										<li>You are not allowed to use scripts (examples: autocasting, hacks)</li>
-										<li>No smurf accounts! You will throw our algorithms out of wack</li>
-									</ul>
-								</div><!-- /accordion-inner -->
-							</div><!-- /collapse -->
-						</div><!-- /accordion-group -->
-						<br>
-
 						<div class="accordion-group">
 							<div class="accordion-heading">
 								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion4" href="./#collapseFour">
 								<i class="fa fa-trophy"></i> Prizes
 								</a> (Click for info)
 							</div>
-							<div id="collapseFour" class="accordion-body collapse">
+							<div id="collapseFour" class="accordion-body collapse in">
 								<div class="accordion-inner">
 									<ul>
 										<li>Pizza and drinks will be available for all attendees</li>
