@@ -74,6 +74,10 @@ body {
 	font-weight: bold;
 }
 
+.serious {
+	text-transform: uppercase;
+}
+
 .paper {
 	background-color: #fff;
 	padding: 10px;
@@ -86,4 +90,8 @@ body {
 .red {
 	background-color: #e74c3c;
 	color: white;
+}
+
+.tournament-item {
+	padding-left: 20px;
 }
