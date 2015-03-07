@@ -377,11 +377,11 @@
 						<div class="col-sm-3">
 							<span class="text-center power serious push-right">Match B</span>
 							<ol>
-								<li>koaluh</li>
+								<del><li>koaluh</li>
 								<li>PrincessMarky</li>
 								<li>liquidshadowfox</li>
 								<li>JZaber</li>
-								<li>P1ngachu</li>
+								<li>P1ngachu</li></del>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
@@ -457,7 +457,7 @@
 								<li>darkcloudking</li>
 								<li>TGDoubleD</li>
 								<li>Blastoy</li>
-								<li>GENIFIC</li>
+								<li>jackonisgood</li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
