@@ -473,7 +473,7 @@
 							<ol>
 								<li>Jabkal</li>
 								<li>Trishoryuken</li>
-								<li>Tasogoro</li>
+								<li>(sub needed)</li>
 								<li>SpecialName</li>
 								<li>aurology</li>
 							</ol>
