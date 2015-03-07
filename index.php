@@ -524,6 +524,7 @@
 						<h2><i class="fa fa-warning"></i> Tournament Rules </h2>
 						<div class="tournament-item">
 							<h4>1. Tournament Organizer(s)</h4>
+							<p>A Tournament Organizer cannot enter the tournament his/her self.</p>
 							<p>Tournament organizers are responsible for:
 								<ul>
 									<li>Food needs as described by organizer</li>
