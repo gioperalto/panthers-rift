@@ -360,24 +360,24 @@
 							<span class="text-center power serious push-right">Match A</span>
 							<ol>
 								<li>Xenusus</li>
-								<li><span class="glow">ddthorn</span></li>
+								<li>ddthorn</li>
 								<li>Enmanuelgg</li>
-								<li>carnivalsheriff</li>
+								<li>Daltherion</li>
 								<li>pronetiger</li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
-								<li>Luisthepanda</li>
+								<del><li>Luisthepanda</li>
 								<li>MearAzn</li>
 								<li>KamikazeBen</li>
 								<li>j4d3</li>
-								<li>Madcoat</li>
+								<li>Madcoat</li></del>
 							</ol>
 						</div>
 						<div class="col-sm-3">
 							<span class="text-center power serious push-right">Match B</span>
 							<ol>
-								<li>Puki</li>
+								<li>koaluh</li>
 								<li>PrincessMarky</li>
 								<li>liquidshadowfox</li>
 								<li>JZaber</li>
@@ -386,7 +386,7 @@
 							<div class="push-right power">VS</div>
 							<ol>
 								<li>faldin</li>
-								<li>Daltherion</li>
+								<li>Deadopolis</li>
 								<li>zreize</li>
 								<li>Poisoneye</li>
 								<li>OhGeeNivi</li>
@@ -395,19 +395,19 @@
 						<div class="col-sm-3">
 							<span class="text-center power serious push-right">Match C</span>
 							<ol>
-								<li>qTzzxD</li>
-								<li><span class="glow">Mrboogur</span></li>
-								<li>Deadoplis</li>
-								<li>emtgd10s</li>
-								<li>theslayer703</li>
+								<li>Exelight</li>
+								<li>Galeonez</li>
+								<li>PaleoEpic</li>
+								<li>ReddLaw</li>
+								<li>Chimera41</li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
-								<li>GambaJabari</li>
+								<del><li>GambaJabari</li>
 								<li>NicolastehGreat</li>
 								<li>A0Spades</li>
 								<li>blk145</li>
-								<li>mackerelslayer</li>
+								<li>mackerelslayer</li></del>
 							</ol>
 						</div>
 						<div class="col-sm-3">
@@ -421,11 +421,12 @@
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
-								<li>Exelight</li>
-								<li>Galeonez</li>
-								<li>PaleoEpic</li>
-								<li>ReddLaw</li>
-								<li>Chimera41</li>
+								
+								<li>(sub needed)</li>
+								<li><span class="glow">Mrboogur</span></li>
+								<li>(sub needed)</li>
+								<li>(sub needed)</li>
+								<li>(sub needed)</li>
 							</ol>
 						</div>
 					</div>
@@ -447,24 +448,6 @@
 								<li><span class="glow">LOMO420</span></li>
 								<li>Secretic</li>
 								<li>GeneralBio</li>
-							</ol>
-						</div>
-						<div class="col-sm-3">
-							<span class="text-center power serious push-right">Match F</span>
-							<ol>
-								<li>Panconpeenga</li>
-								<li>ZerkerMiner</li>
-								<li>dilut3</li>
-								<li>MrSuperior</li>
-								<li>Tunabarrage</li>
-							</ol>
-							<div class="push-right power">VS</div>
-							<ol>
-								<li>TyroneJenkinsII</li>
-								<li>Taeverius</li>
-								<li>NemesisII</li>
-								<li>Suicidalwaffles</li>
-								<li>iNiinjah</li>
 							</ol>
 						</div>
 						<div class="col-sm-3">
@@ -503,6 +486,25 @@
 								<li>WhoDaFuhhh</li>
 							</ol>
 						</div>
+						<div class="col-sm-3">
+							<span class="text-center power serious push-right">Match F</span>
+							<ol>
+								<li>Panconpeenga</li>
+								<li>ZerkerMiner</li>
+								<li>mikinator5</li>
+								<li>MrSuperior</li>
+								<li>Tunabarrage</li>
+							</ol>
+							<div class="push-right power">VS</div>
+							<ol>
+								<li>TyroneJenkinsII</li>
+								<li>theslayer703</li>
+								<li>qTzz xD</li>
+								<li>SuicidalWaffles</li>
+								<li>iNiinjah</li>
+							</ol>
+						</div>
+						
 					</div>
 				</div>
 			</div>
