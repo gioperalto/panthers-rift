@@ -457,7 +457,7 @@
 								<li>jasodysseus</li>
 								<li>Panthurnanx</li>
 								<li>Saggytitis</li>
-								<li>WhoDaFuhhh</li>
+								<li>Inziniti</li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
@@ -473,7 +473,7 @@
 							<ol>
 								<li>Jabkal</li>
 								<li>Trishoryuken</li>
-								<li>(sub needed)</li>
+								<li>Tripwire305</li>
 								<li>SpecialName</li>
 								<li>aurology</li>
 							</ol>
@@ -497,11 +497,11 @@
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
-								<li>TyroneJenkinsII</li>
+								<del><li>TyroneJenkinsII</li>
 								<li>theslayer703</li>
 								<li>qTzz xD</li>
 								<li>SuicidalWaffles</li>
-								<li>iNiinjah</li>
+								<li>iNiinjah</li></del>
 							</ol>
 						</div>
 						
