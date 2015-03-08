@@ -413,11 +413,11 @@
 						<div class="col-sm-3">
 							<span class="text-center power serious push-right">Match D</span>
 							<ol>
-								<li>zerok00l</li>
-								<li>BoomStar51</li>
-								<li>LordZaynex</li>
-								<li>Carry me or lose</li>
-								<li>canufeelitkrabs</li>
+								<li>CriustheTitan</li>
+								<li>jasodysseus</li>
+								<li>Panthurnanx</li>
+								<li>Saggytitis</li>
+								<li>Inziniti</li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
@@ -453,11 +453,11 @@
 						<div class="col-sm-3">
 							<span class="text-center power serious push-right">Match G</span>
 							<ol>
-								<li>CriustheTitan</li>
-								<li>jasodysseus</li>
-								<li>Panthurnanx</li>
-								<li>Saggytitis</li>
-								<li>Inziniti</li>
+								<del><li>zerok00l</li>
+								<li>BoomStar51</li>
+								<li>MearAzn</li>
+								<li>Carry me or lose</li>
+								<li>canufeelitkrabs</li></del>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
@@ -471,7 +471,7 @@
 						<div class="col-sm-3">
 							<span class="text-center power serious push-right">Match H</span>
 							<ol>
-								<li>Jabkal</li>
+								<li>Devinfuture</li>
 								<li>Trishoryuken</li>
 								<li>Tripwire305</li>
 								<li>SpecialName</li>
@@ -479,11 +479,11 @@
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
-								<li>Oesteria</li>
+								<del><li>Oesteria</li>
 								<li>darkcloudking</li>
 								<li>TGDoubleD</li>
 								<li>Blastoy</li>
-								<li>jackonisgood</li>
+								<li>jackonisgood</li></del>
 							</ol>
 						</div>
 						<div class="col-sm-3">
