@@ -422,7 +422,7 @@
 							<div class="push-right power">VS</div>
 							<ol>
 								
-								<li>(sub needed)</li>
+								<li>Jakbal</li>
 								<li>(sub needed)</li>
 								<li>(sub needed)</li>
 								<li>(sub needed)</li>
