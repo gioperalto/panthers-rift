@@ -423,7 +423,7 @@
 							<ol>
 								
 								<li>(sub needed)</li>
-								<li><span class="glow">Mrboogur</span></li>
+								<li>(sub needed)</li>
 								<li>(sub needed)</li>
 								<li>(sub needed)</li>
 								<li>(sub needed)</li>
@@ -436,18 +436,18 @@
 							<span class="text-center power serious push-right">Match E</span>
 							<ol>
 								<li>Livan</li>
-								<li><span class="glow">mirlchrisylo</span></li>
+								<li>Daylight</li>
 								<li>backdoorentry1</li>
 								<li>FantasyDiamond</li>
-								<li><span class="glow">Dinocannon</span></li>
+								<li>(sub needed)</li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
-								<li><span class="glow">ShadeLlewellyn</span></li>
-								<li><span class="glow">hax0ran</span></li>
-								<li><span class="glow">LOMO420</span></li>
+								<li>(sub needed)</li>
+								<li>hax0ran</li>
+								<li>LOMO420</li>
 								<li>Secretic</li>
-								<li>GeneralBio</li>
+								<li>(sub needed)</li>
 							</ol>
 						</div>
 						<div class="col-sm-3">
@@ -654,19 +654,13 @@
 		<section id="lineup" name="features"></section>
 		<div id="featureswrap">
 			<div class="container">
-				<h2 class="text-center">Lineup</h2>
+				<h2 class="text-center">Remaining Matches</h2>
 				<hr>
-				<p class="text-center">Below is the lineup for the tournament:</p>
+				<p class="text-center">Below are the remaining matches for the tournament:</p>
 				<br>
 				<br>
 				<div class="row text-center paper">
 					<ol>
-						<li class="power serious">Match A - Started at 2:00pm</li>
-						<li class="power serious">Match C - Started at 3:30pm</li>
-						<li class="power serious">Match B - Starts at 4:45pm</li>
-						<li class="power serious">Match F - Starts at 6:30pm</li>
-						<li class="power serious">Match H</li>
-						<li class="power serious">Match G</li>
 						<li class="power serious">Match D</li>
 						<li class="power serious">Match E</li>
 
