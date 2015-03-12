@@ -417,16 +417,16 @@
 								<li>jasodysseus</li>
 								<li>Panthurnanx</li>
 								<li>Saggytitis</li>
-								<li>Inziniti</li>
+								<li>Inzinity</li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
 								
-								<li>Jakbal</li>
-								<li>(sub needed)</li>
-								<li>(sub needed)</li>
-								<li>(sub needed)</li>
-								<li>(sub needed)</li>
+								<li>Jabkal</li>
+								<li>Donii</li>
+								<li>Deidriel <-> hax0ran</li>
+								<li>LordZaynex</li>
+								<li>theSlayer703</li>
 							</ol>
 						</div>
 					</div>
@@ -435,19 +435,19 @@
 						<div class="col-sm-3">
 							<span class="text-center power serious push-right">Match E</span>
 							<ol>
-								<li>Livan</li>
 								<li>Daylight</li>
-								<li>backdoorentry1</li>
 								<li>FantasyDiamond</li>
-								<li>(sub needed)</li>
+								<li>Livan</li>
+								<li>dilut3</li>
+								<li>backdoorentry1</li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
-								<li>(sub needed)</li>
-								<li>hax0ran</li>
-								<li>LOMO420</li>
 								<li>Secretic</li>
-								<li>(sub needed)</li>
+								<li>LOMO420</li>
+								<li>skulledg2</li>
+								<li>Aerodon</li>
+								<li>Nickymaree0490</li>
 							</ol>
 						</div>
 						<div class="col-sm-3">
