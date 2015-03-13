@@ -359,11 +359,11 @@
 						<div class="col-sm-3">
 							<span class="text-center power serious push-right">Match A</span>
 							<ol>
-								<li>Xenusus</li>
 								<li>ddthorn</li>
-								<li>Enmanuelgg</li>
 								<li>Daltherion</li>
+								<li>Xenusus</li>
 								<li>pronetiger</li>
+								<li>Enmanuelgg</li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
@@ -385,21 +385,21 @@
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
-								<li>faldin</li>
-								<li>Deadopolis</li>
-								<li>zreize</li>
 								<li>Poisoneye</li>
+								<li>faldin</li>
+								<li>zreize</li>
 								<li>OhGeeNivi</li>
+								<li>Deadopolis</li>
 							</ol>
 						</div>
 						<div class="col-sm-3">
 							<span class="text-center power serious push-right">Match C</span>
 							<ol>
-								<li>Exelight</li>
-								<li>Galeonez</li>
+								<li>Chimera41</li>
 								<li>PaleoEpic</li>
 								<li>ReddLaw</li>
-								<li>Chimera41</li>
+								<li>Exelight</li>
+								<li>Galeonez</li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
@@ -414,10 +414,10 @@
 							<span class="text-center power serious push-right">Match D</span>
 							<ol>
 								<li>CriustheTitan</li>
-								<li>jasodysseus</li>
-								<li>Panthurnanx</li>
 								<li>Saggytitis</li>
 								<li>Inzinity</li>
+								<li>jasodysseus</li>
+								<li>Panthurnanx</li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
@@ -461,9 +461,9 @@
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
-								<li>LucidNightmare</li>
 								<li>Guario</li>
 								<li>raccoonlove</li>
+								<li>LucidNightmare</li>
 								<li>mathmonkey</li>
 								<li>BigBoss255</li>
 							</ol>
@@ -471,10 +471,10 @@
 						<div class="col-sm-3">
 							<span class="text-center power serious push-right">Match H</span>
 							<ol>
-								<li>Devinfuture</li>
+								<li>SpecialName</li>
 								<li>Trishoryuken</li>
 								<li>Tripwire305</li>
-								<li>SpecialName</li>
+								<li>Devinfuture</li>
 								<li>aurology</li>
 							</ol>
 							<div class="push-right power">VS</div>
@@ -489,11 +489,11 @@
 						<div class="col-sm-3">
 							<span class="text-center power serious push-right">Match F</span>
 							<ol>
-								<li>Panconpeenga</li>
-								<li>ZerkerMiner</li>
-								<li>mikinator5</li>
 								<li>MrSuperior</li>
 								<li>Tunabarrage</li>
+								<li>Panconpeenga</li>
+								<li>mikinator5</li>
+								<li>ZerkerMiner</li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
