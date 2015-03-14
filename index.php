@@ -424,7 +424,7 @@
 								
 								<li>Jabkal</li>
 								<li>Donii</li>
-								<li>Deidriel <-> hax0ran</li>
+								<li>Deidriel</li>
 								<li>LordZaynex</li>
 								<li>theSlayer703</li>
 							</ol>
