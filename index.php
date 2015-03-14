@@ -417,7 +417,7 @@
 								<li>Saggytitis</li>
 								<li>Inzinity</li>
 								<li>jasodysseus</li>
-								<li>Panthurnanx</li>
+								<li>leeroyj123</li>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
