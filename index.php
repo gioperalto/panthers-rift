@@ -421,12 +421,13 @@
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
-								
+								<del>
 								<li>Jabkal</li>
 								<li>Donii</li>
 								<li>Deidriel</li>
 								<li>LordZaynex</li>
 								<li>theSlayer703</li>
+								</del>
 							</ol>
 						</div>
 					</div>
@@ -435,11 +436,13 @@
 						<div class="col-sm-3">
 							<span class="text-center power serious push-right">Match E</span>
 							<ol>
+								<del>
 								<li>Daylight</li>
 								<li>FantasyDiamond</li>
 								<li>Livan</li>
 								<li>dilut3</li>
 								<li>backdoorentry1</li>
+								</del>
 							</ol>
 							<div class="push-right power">VS</div>
 							<ol>
