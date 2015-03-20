@@ -357,7 +357,7 @@
 		
 					<div class="row text-center paper">
 						<div class="col-sm-3">
-							<span class="text-center power serious push-right">Match A</span>
+							<span class="text-center power serious push-right">Team A</span>
 							<ol>
 								<li>ddthorn</li>
 								<li>Daltherion</li>
@@ -365,25 +365,9 @@
 								<li>pronetiger</li>
 								<li>Enmanuelgg</li>
 							</ol>
-							<div class="push-right power">VS</div>
-							<ol>
-								<del><li>Luisthepanda</li>
-								<li>MearAzn</li>
-								<li>KamikazeBen</li>
-								<li>j4d3</li>
-								<li>Madcoat</li></del>
-							</ol>
 						</div>
 						<div class="col-sm-3">
-							<span class="text-center power serious push-right">Match B</span>
-							<ol>
-								<del><li>koaluh</li>
-								<li>PrincessMarky</li>
-								<li>liquidshadowfox</li>
-								<li>JZaber</li>
-								<li>P1ngachu</li></del>
-							</ol>
-							<div class="push-right power">VS</div>
+							<span class="text-center power serious push-right">Team B</span>
 							<ol>
 								<li>Poisoneye</li>
 								<li>faldin</li>
@@ -393,7 +377,7 @@
 							</ol>
 						</div>
 						<div class="col-sm-3">
-							<span class="text-center power serious push-right">Match C</span>
+							<span class="text-center power serious push-right">Team C</span>
 							<ol>
 								<li>Chimera41</li>
 								<li>PaleoEpic</li>
@@ -401,50 +385,22 @@
 								<li>Exelight</li>
 								<li>Galeonez</li>
 							</ol>
-							<div class="push-right power">VS</div>
-							<ol>
-								<del><li>GambaJabari</li>
-								<li>NicolastehGreat</li>
-								<li>A0Spades</li>
-								<li>blk145</li>
-								<li>mackerelslayer</li></del>
-							</ol>
 						</div>
 						<div class="col-sm-3">
-							<span class="text-center power serious push-right">Match D</span>
+							<span class="text-center power serious push-right">Team D</span>
 							<ol>
-								<li>CriustheTitan</li>
+								<li>Jabkal</li>
 								<li>Saggytitis</li>
 								<li>Inzinity</li>
 								<li>jasodysseus</li>
 								<li>leeroyj123</li>
-							</ol>
-							<div class="push-right power">VS</div>
-							<ol>
-								<del>
-								<li>Jabkal</li>
-								<li>Donii</li>
-								<li>Deidriel</li>
-								<li>LordZaynex</li>
-								<li>theSlayer703</li>
-								</del>
 							</ol>
 						</div>
 					</div>
 					<br>
 					<div class="row text-center paper">
 						<div class="col-sm-3">
-							<span class="text-center power serious push-right">Match E</span>
-							<ol>
-								<del>
-								<li>Daylight</li>
-								<li>FantasyDiamond</li>
-								<li>Livan</li>
-								<li>dilut3</li>
-								<li>backdoorentry1</li>
-								</del>
-							</ol>
-							<div class="push-right power">VS</div>
+							<span class="text-center power serious push-right">Team E</span>
 							<ol>
 								<li>Secretic</li>
 								<li>LOMO420</li>
@@ -454,15 +410,7 @@
 							</ol>
 						</div>
 						<div class="col-sm-3">
-							<span class="text-center power serious push-right">Match G</span>
-							<ol>
-								<del><li>zerok00l</li>
-								<li>BoomStar51</li>
-								<li>MearAzn</li>
-								<li>Carry me or lose</li>
-								<li>canufeelitkrabs</li></del>
-							</ol>
-							<div class="push-right power">VS</div>
+							<span class="text-center power serious push-right">Team G</span>
 							<ol>
 								<li>Guario</li>
 								<li>raccoonlove</li>
@@ -472,39 +420,23 @@
 							</ol>
 						</div>
 						<div class="col-sm-3">
-							<span class="text-center power serious push-right">Match H</span>
+							<span class="text-center power serious push-right">Team H</span>
 							<ol>
-								<li>SpecialName</li>
+								<li>Daylight</li>
 								<li>Trishoryuken</li>
 								<li>Tripwire305</li>
 								<li>Devinfuture</li>
 								<li>aurology</li>
 							</ol>
-							<div class="push-right power">VS</div>
-							<ol>
-								<del><li>Oesteria</li>
-								<li>darkcloudking</li>
-								<li>TGDoubleD</li>
-								<li>Blastoy</li>
-								<li>jackonisgood</li></del>
-							</ol>
 						</div>
 						<div class="col-sm-3">
-							<span class="text-center power serious push-right">Match F</span>
+							<span class="text-center power serious push-right">Team F</span>
 							<ol>
 								<li>MrSuperior</li>
 								<li>Tunabarrage</li>
 								<li>Panconpeenga</li>
 								<li>mikinator5</li>
 								<li>ZerkerMiner</li>
-							</ol>
-							<div class="push-right power">VS</div>
-							<ol>
-								<del><li>TyroneJenkinsII</li>
-								<li>theslayer703</li>
-								<li>qTzz xD</li>
-								<li>SuicidalWaffles</li>
-								<li>iNiinjah</li></del>
 							</ol>
 						</div>
 						
@@ -657,16 +589,21 @@
 		<section id="lineup" name="features"></section>
 		<div id="featureswrap">
 			<div class="container">
-				<h2 class="text-center">Remaining Matches</h2>
+				<h2 class="text-center">Saturday Lineup</h2>
 				<hr>
-				<p class="text-center">Below are the remaining matches for the tournament:</p>
+				<p class="text-center">Below are the remaining matches for the tournament:
+					<br><span class="small">* matches may end later than expected</span></p>
 				<br>
 				<br>
 				<div class="row text-center paper">
 					<ol>
-						<li class="power serious">Match D</li>
-						<li class="power serious">Match E</li>
-
+						<li class="power serious">Match 1 - Team A vs Team G - 12-1PM*</li>
+						<li class="power serious">Match 2 - Team E vs Team H - 12-1PM*</li>
+						<li class="power serious">Match 3 - Team B vs Team C - 1-2PM*</li>
+						<li class="power serious">Match 4 - Team D vs Team F - 1-2PM*</li>
+						<li class="power serious">Team 1 vs Team 4 - 2:30-5PM*</li>
+						<li class="power serious">Team 2 vs Team 3 - 2:30-5PM*</li>
+						<li class="power serious">Final Match - Starts at 5:30PM*</li>
 					</ol>
 				</div>
 			</div>
