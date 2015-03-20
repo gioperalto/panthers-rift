@@ -327,10 +327,10 @@
 							<div id="collapseFour" class="accordion-body collapse in">
 								<div class="accordion-inner">
 									<ul>
-										<li>Pizza and drinks will be available for all attendees</li>
-										<li>RP distribution is still being finalized</li>
-										<li>The winning team gets a trophy and university-wide bragging rights</li>
-										<li>We are contacting potential sponsors to hopefully provide more prizes</li>
+										<li>1st Place - 3200 RP and Triumphant Ryze Skin for every player</li>
+										<li>2nd Place - 2400 RP per player</li>
+										<li>3rd Place - 1600 RP per player</li>
+										<li>4th Place - 800 RP per player</li>
 									</ul>
 								</div><!-- /accordion-inner -->
 							</div><!-- /collapse -->
