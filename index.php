@@ -412,11 +412,11 @@
 						<div class="col-sm-3">
 							<span class="text-center power serious push-right">Team G</span>
 							<ol>
-								<li>Guario</li>
+								<li>NicolastehGreat</li>
 								<li>raccoonlove</li>
 								<li>LucidNightmare</li>
 								<li>mathmonkey</li>
-								<li>BigBoss255</li>
+								<li>Livan</li>
 							</ol>
 						</div>
 						<div class="col-sm-3">
