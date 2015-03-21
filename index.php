@@ -350,7 +350,7 @@
 					<h2 class="text-center">Teams</h2>
 					<hr>
 					<p class="text-center">
-						Below are the official teams to enter the Panther's Rift Qualifier!
+						Below are the official teams to enter the Panther's Rift Main Event!
 					<br>Based on the results, we believe any team could come out on top.
 					<br>Summoners highlighted in <span class="glow">yellow</span> are subject to change
 					</p>
