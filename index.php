@@ -66,7 +66,6 @@
 							<li><a href="./#tournament" class="smoothScroll">Tournament</a></li>
 							<li><a href="./#teams" class="smoothScroll">Teams</a></li>
 							<li><a href="./#rules" class="smoothScroll">Rules</a></li>
-							<li><a href="./#lineup" class="smoothScroll">Lineup</a></li>
 							<li><a href="./#sponsors" class="smoothScroll">Sponsors</a></li>
 						  </ul>
 						</li>
@@ -350,24 +349,12 @@
 					<h2 class="text-center">Teams</h2>
 					<hr>
 					<p class="text-center">
-						Below are the official teams to enter the Panther's Rift Main Event!
-					<br>Based on the results, we believe any team could come out on top.
-					<br>Summoners highlighted in <span class="glow">yellow</span> are subject to change
+						Below are the contest results!
 					</p>
 		
 					<div class="row text-center paper">
 						<div class="col-sm-3">
-							<span class="text-center power serious push-right">Team A</span>
-							<ol>
-								<li>ddthorn</li>
-								<li>Daltherion</li>
-								<li>Xenusus</li>
-								<li>pronetiger</li>
-								<li>Enmanuelgg</li>
-							</ol>
-						</div>
-						<div class="col-sm-3">
-							<span class="text-center power serious push-right">Team B</span>
+							<span class="text-center power serious push-right">1st Place</span>
 							<ol>
 								<li>Poisoneye</li>
 								<li>faldin</li>
@@ -377,17 +364,7 @@
 							</ol>
 						</div>
 						<div class="col-sm-3">
-							<span class="text-center power serious push-right">Team C</span>
-							<ol>
-								<li>Chimera41</li>
-								<li>PaleoEpic</li>
-								<li>ReddLaw</li>
-								<li>Exelight</li>
-								<li>Galeonez</li>
-							</ol>
-						</div>
-						<div class="col-sm-3">
-							<span class="text-center power serious push-right">Team D</span>
+							<span class="text-center power serious push-right">2nd Place</span>
 							<ol>
 								<li>Jabkal</li>
 								<li>Saggytitis</li>
@@ -396,50 +373,26 @@
 								<li>leeroyj123</li>
 							</ol>
 						</div>
-					</div>
-					<br>
-					<div class="row text-center paper">
 						<div class="col-sm-3">
-							<span class="text-center power serious push-right">Team E</span>
+							<span class="text-center power serious push-right">3rd Place</span>
 							<ol>
-								<li>Secretic</li>
-								<li>LOMO420</li>
-								<li>skulledg2</li>
-								<li>Aerodon</li>
-								<li>Nickymaree0490</li>
+								<li>Daylight</li>
+								<li>Trishoryuken</li>
+								<li>Freak McNasty</li>
+								<li>Furry Dice</li>
+								<li>Liquid Lomo</li>
 							</ol>
 						</div>
 						<div class="col-sm-3">
-							<span class="text-center power serious push-right">Team G</span>
+							<span class="text-center power serious push-right">4th Place</span>
 							<ol>
 								<li>NicolastehGreat</li>
-								<li>raccoonlove</li>
+								<li>BigBoss255</li>
 								<li>LucidNightmare</li>
 								<li>blk145</li>
 								<li>Livan</li>
 							</ol>
 						</div>
-						<div class="col-sm-3">
-							<span class="text-center power serious push-right">Team H</span>
-							<ol>
-								<li>Daylight</li>
-								<li>Trishoryuken</li>
-								<li>Tripwire305</li>
-								<li>Devinfuture</li>
-								<li>aurology</li>
-							</ol>
-						</div>
-						<div class="col-sm-3">
-							<span class="text-center power serious push-right">Team F</span>
-							<ol>
-								<li>MrSuperior</li>
-								<li>Tunabarrage</li>
-								<li>Panconpeenga</li>
-								<li>mikinator5</li>
-								<li>ZerkerMiner</li>
-							</ol>
-						</div>
-						
 					</div>
 				</div>
 			</div>
@@ -583,90 +536,6 @@
 				
 			</div><!-- /container -->
 		</div><!-- /featureswrap -->
-
-
-		<!-- Features Wrap -->
-		<section id="lineup" name="features"></section>
-		<div id="featureswrap">
-			<div class="container">
-				<h2 class="text-center">Saturday Lineup</h2>
-				<hr>
-				<p class="text-center">Below are the remaining matches for the tournament:
-					<br><span class="small">* matches may end later than expected</span></p>
-				<br>
-				<br>
-				<div class="row text-center paper">
-					<ol>
-						<li class="power serious">Match 1 - Team A vs Team G - 12-1PM*</li>
-						<li class="power serious">Match 2 - Team E vs Team H - 12-1PM*</li>
-						<li class="power serious">Match 3 - Team B vs Team C - 1-2PM*</li>
-						<li class="power serious">Match 4 - Team D vs Team F - 1-2PM*</li>
-						<li class="power serious">Team 1 vs Team 4 - 2:30-5PM*</li>
-						<li class="power serious">Team 2 vs Team 3 - 2:30-5PM*</li>
-						<li class="power serious">Final Match - Starts at 5:30PM*</li>
-					</ol>
-				</div>
-			</div>
-		</div>
-	
-
-		<!-- Footer Wrap -->
-		<section id="sponsors"></section>
-		<div id="footerwrap">
-			<div class="container">
-				<div class="row">
-					<h1>Diamond Sponsors</h1>
-				</div><!-- /row -->
-				<div class="row">
-					<div class="col-lg-4">
-					</div>
-					<div class="col-lg-4">
-						<a href="sponsors/"><h1>Become a Diamond Sponsor</h1></a>
-						<!-- INSERT SPONSOR HERE -->
-					</div>
-					<div class="col-lg-4">
-						<!-- INSERT SPONSOR HERE -->
-					</div>
-				</div>
-				<div class="row">
-					<h2>Platinum Sponsors</h2>
-					<div class="col-lg-3">
-					</div>
-					<div class="col-lg-3">
-						<!-- INSERT SPONSOR HERE -->
-					</div>
-					<div class="col-lg-3">
-						<a href="sponsors/"><h2>Become a Platinum Sponsor</h2></a>
-						<!-- INSERT SPONSOR HERE -->
-					</div>
-					<div class="col-lg-3">
-						<!-- INSERT SPONSOR HERE -->
-					</div>
-				</div><!-- /row -->
-				<div class="row">
-					<h3>Gold Sponsors</h3>
-					<div class="col-lg-2">
-					</div>
-					<div class="col-lg-2">
-						<!-- INSERT SPONSOR HERE -->
-					</div>
-					<div class="col-lg-2">
-						<!-- INSERT SPONSOR HERE -->
-					</div>
-					<div class="col-lg-2">
-						<!-- INSERT SPONSOR HERE -->
-					</div>
-					<div class="col-lg-2">
-						<a href="sponsors/"><h3>Become a Gold Sponsor</h3></a>
-						<!-- INSERT SPONSOR HERE -->
-					</div>
-					<div class="col-lg-2">
-						<!-- INSERT SPONSOR HERE -->
-					</div>
-				</div><!-- /row -->
-
-			</div><!-- /container -->
-		</div><!-- /footerwrap -->
 
 
 		<!-- Divider 2 Section -->
